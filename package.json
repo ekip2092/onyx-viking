@@ -1,0 +1,30 @@
+{
+  "name": "onyx-viking-services",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Onyx Viking Services — luxury Viking appliance-repair marketing site. Next.js + GSAP, built on the Corsa design system.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^6.6.0",
+    "@stripe/stripe-js": "^9.8.0",
+    "google-auth-library": "^10.7.0",
+    "gsap": "^3.12.5",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "stripe": "^22.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "axe-core": "^4.12.1",
+    "playwright": "^1.61.0",
+    "typescript": "^5.5.3"
+  }
+}

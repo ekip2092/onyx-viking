@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Onyx">
+  <rect width="64" height="64" rx="13" fill="#181818"/>
+  <g transform="translate(8,8) scale(0.4)">
+    <path d="M60 14 L98 46 L60 106 L22 46 Z" fill="#da291c"/>
+    <path d="M22 46 H98" stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.9"/>
+    <path d="M60 14 L43 46 M60 14 L77 46" stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.9"/>
+    <path d="M43 46 L60 106 M77 46 L60 106" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.45"/>
+    <path d="M60 46 L60 106" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.45"/>
+  </g>
+</svg>

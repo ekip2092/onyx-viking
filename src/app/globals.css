@@ -1,0 +1,460 @@
+/* ============================================================
+   ONYX VIKING SERVICES — global stylesheet
+   Built on the Corsa Design System (luxury-automotive editorial).
+   Tokens ported verbatim from the design handoff; the prototype's
+   "tweak" values are baked in as constants (see :root below).
+   ============================================================ */
+
+/* Inter is the documented open-source substitute for the licensed
+   FerrariSans brand face. Loaded via next/font in layout.tsx and
+   exposed as --font-inter. */
+
+:root {
+  /* ---- Brand / accent (Rosso Corsa) ---- */
+  --color-primary: #da291c;
+  --color-primary-active: #b01e0a;
+  --color-primary-hover: #9d2211;
+
+  /* ---- Surface ---- */
+  --color-canvas: #181818;           /* near-black page floor (never pure black) */
+  --color-canvas-elevated: #303030;  /* cards / panels on dark */
+  --color-canvas-light: #ffffff;     /* white editorial bands */
+  --color-surface-card: #303030;
+  --color-surface-soft-light: #f7f7f7;
+  --color-surface-strong-light: #ebebeb;
+
+  /* ---- Hairlines ---- */
+  --color-hairline: #303030;
+  --color-hairline-on-light: #d2d2d2;
+  --color-hairline-soft: #ebebeb;
+
+  /* ---- Text ---- */
+  --color-ink: #ffffff;
+  --color-body: #a6a6a6;            /* AA (4.5:1) on dark and on #303030 cards */
+  --color-body-strong: #ffffff;
+  --color-body-on-light: #181818;
+  --color-muted: #9e9e9e;           /* AA on dark surfaces */
+  --color-muted-on-light: #5f5f5f;  /* AA muted for white editorial bands */
+  --color-muted-soft: #8f8f8f;
+  --color-on-primary: #ffffff;
+
+  /* ---- Decorative gradients (the only two in the system) ---- */
+  --gradient-rosso: linear-gradient(180deg, #a00c01, #da291c 64%);
+  --gradient-graphite: linear-gradient(180deg, #3c3c3c, #030303 64%);
+
+  /* ---- Typography ---- */
+  --font-family: var(--font-inter), -apple-system, system-ui, sans-serif;
+
+  --type-display-md-size: 26px;
+
+  --type-caption-size: 12px;
+  --type-caption-uppercase-size: 11px;
+  --type-caption-uppercase-weight: 600;
+  --type-caption-uppercase-tracking: 1.1px;
+
+  --type-body-sm-size: 13px;
+
+  --type-button-size: 14px;
+  --type-button-weight: 700;
+  --type-button-tracking: 1.4px;
+
+  --type-nav-link-size: 13px;
+  --type-nav-link-tracking: 0.65px;
+
+  --type-number-display-size: 80px;
+  --type-number-display-weight: 700;
+  --type-number-display-leading: 1;
+  --type-number-display-tracking: -1.6px;
+
+  /* ---- Spacing ladder (8px-based) ---- */
+  --space-xxxs: 4px;
+  --space-xxs: 8px;
+  --space-xs: 16px;
+  --space-sm: 24px;
+  --space-md: 32px;
+  --space-lg: 48px;
+  --space-xl: 64px;
+  --space-xxl: 96px;
+  --space-super: 128px;
+  --container-max: 1280px;
+
+  /* ---- Radius (sharp by default) ---- */
+  --radius-none: 0px;
+  --radius-sm: 4px;     /* form inputs only */
+  --radius-full: 9999px;
+
+  /* ---- Elevation (essentially flat) ---- */
+  --shadow-small: 0 4px 8px rgba(0, 0, 0, 0.1); /* hovered card — the only tier */
+
+  /* ---- Baked-in headline scale/tracking (was a prototype tweak) ---- */
+  --display-scale: 1;
+  --tracking-add: 0px;
+}
+
+* { box-sizing: border-box; }
+html { overflow-x: clip; }            /* safety net against accidental horizontal scroll */
+html, body { margin: 0; max-width: 100%; background: var(--color-canvas); }
+body {
+  font-family: var(--font-family);
+  color: var(--color-body);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+
+/* ---- Display headings (fluid) ---- */
+.d-mega, .d-xl, .d-lg, .d-md {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 500;            /* display weight stays 500 — never bold */
+  color: var(--color-ink);
+  text-wrap: balance;
+  overflow-wrap: break-word;   /* never let a long word force horizontal scroll */
+}
+.d-mega {
+  font-size: calc(clamp(42px, 6.6vw, 84px) * var(--display-scale));
+  line-height: 1.02;
+  letter-spacing: calc(-1.6px + var(--tracking-add));
+}
+.d-xl {
+  font-size: calc(clamp(32px, 5vw, 56px) * var(--display-scale));
+  line-height: 1.08;
+  letter-spacing: calc(-1.12px + var(--tracking-add));
+}
+.d-lg {
+  font-size: calc(clamp(26px, 3.4vw, 38px) * var(--display-scale));
+  line-height: 1.15;
+  letter-spacing: calc(-0.36px + var(--tracking-add));
+}
+.d-md {
+  font-size: clamp(20px, 2.3vw, 27px);
+  line-height: 1.4;
+  letter-spacing: 0.1px;
+}
+
+/* ---- Eyebrow ---- */
+.eyebrow {
+  font-size: var(--type-caption-uppercase-size);
+  font-weight: var(--type-caption-uppercase-weight);
+  letter-spacing: var(--type-caption-uppercase-tracking);
+  text-transform: uppercase;
+  color: var(--color-body);
+  margin: 0;
+}
+
+/* ---- Body copy ---- */
+.lede {
+  font-size: var(--type-display-md-size);
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--color-body);
+  margin: 0;
+  text-wrap: pretty;
+}
+.body {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--color-body);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* ---- Layout helpers ---- */
+.wrap { max-width: var(--container-max); margin: 0 auto; }
+.grid { display: grid; gap: var(--space-md); }
+.cols-2 { grid-template-columns: repeat(2, 1fr); }
+.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.cols-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 980px) {
+  .cols-3, .cols-4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 620px) {
+  .cols-2, .cols-3, .cols-4 { grid-template-columns: 1fr; }
+}
+
+/* ---- "By the numbers": symmetric 6 / 3 / 2 grid ---- */
+.stats-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: var(--space-md) var(--space-sm); }
+@media (max-width: 980px) { .stats-6 { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px) { .stats-6 { grid-template-columns: repeat(2, 1fr); } }
+
+/* ---- Sticky bottom call bar (small screens) ---- */
+.callbar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 60;
+  display: none;
+  gap: 1px;
+  background: var(--color-hairline);
+  border-top: 1px solid var(--color-hairline);
+}
+.callbar a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xxs);
+  height: 56px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: var(--type-button-size);
+  font-weight: 700;
+  letter-spacing: var(--type-button-tracking);
+}
+.callbar .cb-call { background: var(--color-primary); color: #fff; }
+.callbar .cb-book { background: var(--color-canvas-elevated); color: var(--color-ink); }
+@media (max-width: 760px) {
+  .callbar { display: flex; }
+  body { padding-bottom: 56px; }
+}
+
+/* ---- Nav responsive ---- */
+.nav-links { display: flex; gap: var(--space-lg); align-items: center; }
+.nav-right { display: flex; align-items: center; gap: var(--space-md); }
+.nav-phone { display: flex; align-items: center; }
+@media (max-width: 1040px) {
+  .nav-links { display: none; }
+}
+@media (max-width: 540px) {
+  .nav-phone { display: none; }   /* phones: the sticky bottom call bar carries the call CTA */
+}
+
+/* ---- Two-up editorial splits collapse on smaller screens ---- */
+@media (max-width: 900px) {
+  .manifesto-grid,
+  .contact-grid,
+  .book-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-lg) !important;
+  }
+  .book-rail {
+    position: static !important;
+    top: auto !important;
+  }
+}
+
+/* ---- Mobile nav menu (hamburger) ---- */
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-right: -8px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: var(--color-ink);
+  cursor: pointer;
+}
+.menu-overlay {
+  position: fixed;
+  inset: 72px 0 0 0;
+  z-index: 45;
+  background: rgba(0, 0, 0, 0.45);
+}
+.menu-panel {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  right: 0;
+  z-index: 55;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-xs) var(--space-lg) var(--space-lg);
+  background: rgba(24, 24, 24, 0.98);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-hairline);
+  max-height: calc(100dvh - 72px);
+  overflow-y: auto;
+}
+@media (max-width: 1040px) {
+  .menu-toggle { display: inline-flex; }
+}
+@media (max-width: 640px) {
+  .nav-cta { display: none; }   /* the sticky bottom call bar covers Call/Book on phones */
+}
+
+/* ---- Footer columns stack down ---- */
+@media (max-width: 900px) {
+  .footer-cols { grid-template-columns: 1fr 1fr !important; }
+}
+@media (max-width: 560px) {
+  .footer-cols { grid-template-columns: 1fr !important; }
+}
+
+/* ---- Fluid spacing scale: tighten gutters + band padding on smaller screens.
+   Every section/nav/footer gutter is built from these tokens, so shrinking
+   them here keeps left edges aligned while reclaiming width on phones. ---- */
+@media (max-width: 900px) {
+  :root {
+    --space-super: 96px;
+    --space-xxl: 72px;
+    --space-xl: 56px;
+    --space-lg: 32px;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    --space-super: 72px;
+    --space-xxl: 56px;
+    --space-xl: 44px;
+    --space-lg: 22px;
+    --space-md: 20px;
+    --type-number-display-size: 54px; /* keep big stat numerals inside small cells */
+  }
+}
+@media (max-width: 380px) {
+  :root { --space-md: 16px; }   /* keep wide buttons/cards inside very small phones */
+}
+
+/* ---- Background video framing on phones ----
+   A landscape video, cover-cropped into a tall phone viewport, zooms in too far.
+   Full "contain" letterboxes it too small. The middle ground: start from the
+   whole frame (contain) and scale up a touch so it fills the width with only a
+   mild crop — fills the screen, shows much more of the scene than cover. */
+/* Phones load purpose-made portrait videos (hero + headers) that fill the
+   screen with plain object-fit: cover, so no per-frame cropping hacks are
+   needed. Just keep the hero headline a touch smaller over the video. */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: clamp(28px, 8.2vw, 38px) !important;
+    line-height: 1.08 !important;
+  }
+  /* Lede/intro copy sitting over a header video reads smaller on phones. */
+  .video-lede {
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+  }
+}
+
+/* ---- Cookie notice ---- */
+.cookie-banner {
+  position: fixed;
+  left: var(--space-sm);
+  bottom: var(--space-sm);
+  z-index: 70;
+  max-width: 420px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  padding: var(--space-sm);
+  background: rgba(24, 24, 24, 0.97);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--color-hairline);
+}
+.cookie-banner p { flex: 1 1 200px; }
+.cookie-actions { display: flex; gap: 8px; margin-left: auto; flex-shrink: 0; }
+.cookie-accept,
+.cookie-decline {
+  height: 44px; /* WCAG 2.5.5 target size */
+  min-height: 44px;
+  padding: 0 18px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.cookie-accept {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+}
+.cookie-decline {
+  background: transparent;
+  color: var(--color-muted);
+  border: 1px solid var(--color-hairline);
+}
+@media (max-width: 760px) {
+  /* Sit above the sticky mobile call bar (56px). */
+  .cookie-banner { left: 12px; right: 12px; bottom: calc(56px + 12px); max-width: none; }
+}
+
+/* ---- PPC landing pages ---- */
+.lp-main { padding-bottom: 0; }
+.lp-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(24, 24, 24, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-hairline);
+}
+.lp-header-inner { display: flex; align-items: center; justify-content: space-between; padding: 12px var(--space-lg); }
+.lp-callbtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  padding: 0 18px;
+  height: 44px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.lp-hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: var(--space-xl); align-items: start; }
+/* Let grid columns shrink below their content so long words/buttons wrap instead of overflowing. */
+.lp-hero-grid > * { min-width: 0; }
+@media (max-width: 900px) { .lp-hero-grid { grid-template-columns: 1fr; } }
+.lp-trust { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.lp-trust li { color: var(--color-body-strong); font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
+.lp-card { background: var(--color-surface-card); border: 1px solid var(--color-hairline); padding: var(--space-lg); }
+.lp-callbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: none; grid-template-columns: 1fr 1fr; }
+.lp-callbar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 56px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+.lp-callbar-call { background: var(--color-primary); color: #fff; }
+.lp-callbar-book { background: #fff; color: #111; }
+@media (max-width: 760px) {
+  .lp-callbar { display: grid; }
+  .lp-main { padding-bottom: 64px; }
+}
+@media (max-width: 520px) {
+  /* Keep the header logo + call button inside very small screens. */
+  .lp-header-inner { padding: 10px 14px; }
+  .lp-callbtn { padding: 0 12px; font-size: 13px; height: 40px; gap: 6px; }
+}
+
+/* ---- Focus visibility (WCAG 2.4.7) ---- */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* ---- Misc ---- */
+.hairline { border: none; border-top: 1px solid var(--color-hairline); margin: 0; }
+.list-reset { list-style: none; margin: 0; padding: 0; }
+
+/* ---- GSAP entrance (opacity-safe: content is visible if JS never runs,
+   and motion is suppressed under reduced-motion). The .gsap-reveal class
+   is only applied client-side once GSAP is ready, so no-JS users see content. */
+@media (prefers-reduced-motion: reduce) {
+  .gsap-reveal { opacity: 1 !important; transform: none !important; }
+  /* Global motion gate: kill CSS animation/transition + smooth scroll.
+     JS (GSAP, counters) and background video also self-disable via
+     matchMedia('(prefers-reduced-motion: reduce)'). */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
