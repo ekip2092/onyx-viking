@@ -49,7 +49,7 @@ Each video needs its poster image (shown before/while the video loads).
 | `kitchen_bg_website.mp4` | `kitchen_bg_poster.jpg` | Home hero (desktop) |
 | `hero_bg_mobile_v3.mp4` | `hero_bg_mobile_v3_poster.jpg` | Home hero (mobile) |
 | `repair_bg_website.mp4` | `repair_bg_poster.jpg` | Problems / About header (desktop) |
-| `repair_bg_mobile.mp4` | `repair_bg_mobile_poster.jpg` | Problems / About header (mobile) |
+| `repair_bg_mobile.mp4` | — | Problems / About header (mobile) |
 | `phonecall_bg_website.mp4` | — | Contact header (desktop) |
 | `phonecall_bg_mobile.mp4` | — | Contact header (mobile) |
 | `tech-door_16x9_web.webm` | — | Cities header |

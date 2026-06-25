@@ -108,9 +108,9 @@ export function CityPage({ city, copy }: { city: City; copy: CityCopy }) {
           }}
         />
         <Reveal className="wrap" style={{ position: "relative", padding: "var(--space-super) var(--space-lg) var(--space-xxl)" }}>
-          <Eyebrow style={{ color: "rgba(255,255,255,0.92)", textShadow: heroShadow }}>Viking &amp; Viking repair · {city.region}</Eyebrow>
+          <Eyebrow style={{ color: "rgba(255,255,255,0.92)", textShadow: heroShadow }}>Viking appliance repair · {city.region}</Eyebrow>
           <h1 className="d-mega hero-title" style={{ marginTop: "var(--space-sm)", maxWidth: "18ch", textShadow: heroShadow }}>
-            Viking &amp; Viking repair · {city.name}, CA
+            Viking appliance repair · {city.name}, CA
           </h1>
           <p className="lede video-lede" style={{ marginTop: "var(--space-md)", maxWidth: "56ch", color: "rgba(255,255,255,0.9)", textShadow: heroShadow }}>
             {copy.subhead}

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 function ProblemsHeader() {
   return (
     <section style={{ position: "relative", overflow: "hidden", background: "var(--color-canvas)", borderBottom: "1px solid var(--color-hairline)" }}>
-      <HeaderVideoBg src="/repair_bg_website.mp4" mobileSrc="/repair_bg_mobile.mp4" />
+      <HeaderVideoBg src="/repair_bg_website.mp4" mobileSrc="/repair_bg_mobile.mp4" poster="/repair_bg_poster.jpg" />
       <Reveal className="wrap" style={{ position: "relative", padding: "var(--space-super) var(--space-lg) var(--space-xxl)" }}>
         <Eyebrow style={{ color: "rgba(255,255,255,0.92)", textShadow: headerShadow }}>Problems we fix</Eyebrow>
         <h1 className="d-mega hero-title" style={{ marginTop: "var(--space-sm)", maxWidth: "15ch", textShadow: headerShadow }}>

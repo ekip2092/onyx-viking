@@ -2,7 +2,7 @@
 # Wikimedia (via each city's Wikipedia lead image), scaled to ~1280px, into
 # public/cities/, and writes src/lib/city-images.json with attribution.
 $ErrorActionPreference = "Stop"
-$UA = "OnyxSubZeroSiteBot/1.0 (https://onyxsubzeroservice.com; contact@onyxsubzeroservice.com)"
+$UA = "OnyxVikingSiteBot/1.0 (https://onyxvikingservice.com; contact@onyxvikingservice.com)"
 $root = Split-Path $PSScriptRoot -Parent
 $outDir = Join-Path $root "public\cities"
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null

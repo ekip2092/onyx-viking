@@ -15,13 +15,13 @@ import { FinalCta } from "@/components/sections/Landing";
 export const metadata: Metadata = {
   title: { absolute: "Viking Repair Across Los Angeles & Southern California | Onyx" },
   description:
-    "Factory trained Viking repair across 41 cities in Los Angeles and Southern California. Flat $95 diagnostic, genuine parts. Call (877) 778-0227.",
+    `Factory trained Viking repair across ${CITIES.length} cities in Los Angeles and Southern California. Flat $95 diagnostic, genuine parts. Call (877) 778-0227.`,
   alternates: { canonical: "/cities-we-serve" },
   openGraph: {
     type: "website",
     title: "Viking Repair Across Los Angeles & Southern California | Onyx",
     description:
-      "Factory trained Viking repair across 41 cities in Los Angeles and Southern California.",
+      `Factory trained Viking repair across ${CITIES.length} cities in Los Angeles and Southern California.`,
     url: "https://www.onyxvikingservice.com/cities-we-serve",
   },
 };
@@ -59,7 +59,7 @@ export default function Page() {
         <Reveal className="wrap" style={{ padding: "var(--space-xl) var(--space-lg) var(--space-xxl)" }}>
           <Eyebrow>Service area · {SITE.region}</Eyebrow>
           <h1 className="d-mega" style={{ marginTop: "var(--space-sm)", maxWidth: "18ch" }}>
-            Viking &amp; Viking repair across Los Angeles &amp; Southern California.
+            Viking appliance repair across Los Angeles &amp; Southern California.
           </h1>
           <p className="lede" style={{ marginTop: "var(--space-md)", maxWidth: "60ch" }}>
             Factory trained service for {CITIES.length} cities, from the gated estates of the Westside to the

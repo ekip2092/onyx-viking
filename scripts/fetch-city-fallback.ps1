@@ -2,7 +2,7 @@
 # Uses Commons search (namespace 6) and picks the first real photo, skipping
 # maps/seals/logos. Appends to src/lib/city-images.json.
 $ErrorActionPreference = "Stop"
-$UA = "OnyxSubZeroSiteBot/1.0 (https://onyxsubzeroservice.com; contact@onyxsubzeroservice.com)"
+$UA = "OnyxVikingSiteBot/1.0 (https://onyxvikingservice.com; contact@onyxvikingservice.com)"
 $root = Split-Path $PSScriptRoot -Parent
 $outDir = Join-Path $root "public\cities"
 
