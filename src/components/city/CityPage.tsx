@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { City } from "@/lib/cities";
 import type { CityCopy } from "@/lib/cityCopy";
 import { nearbyCities, cityPath } from "@/lib/cities";
-import { SITE, VIKING_REFRIGERATION, VIKING_COOKING, type Brand } from "@/lib/site";
+import { SITE, REFRIGERATION, COOKING, type Brand } from "@/lib/site";
 import { cityBusinessJsonLd, cityServiceJsonLd, breadcrumbJsonLd, faqPageJsonLd } from "@/lib/seo";
 import { Shell } from "@/components/layout/Shell";
 import { Button } from "@/components/ui/Button";
@@ -19,14 +19,14 @@ const heroShadow = "0 1px 14px rgba(0,0,0,0.55), 0 1px 3px rgba(0,0,0,0.45)";
 
 const WHY = [
   { t: "Factory trained specialists", d: "Vetted, uniformed technicians who work on Viking and nothing else." },
-  { t: "Genuine factory parts", d: "Only genuine Viking OEM components, sourced direct. No aftermarket substitutes." },
+  { t: "Genuine factory parts", d: "Only Viking OEM components, sourced direct. No aftermarket substitutes." },
   { t: "White glove home protection", d: "Floors, stone, and cabinetry are draped and protected before a single panel comes off." },
   { t: `Flat $${SITE.diagnosticFee} diagnostic`, d: "A fixed diagnostic fee, credited in full toward your repair. No hourly meter, no surprises." },
   { t: "Concierge scheduling", d: "One point of contact, arrival windows kept, and updates by text or call, whichever you prefer." },
   { t: "Licensed and insured", d: `Bonded and fully insured on every visit. ${SITE.bearReg}.` },
 ];
 
-/* One category's service band (Viking refrigeration or cooking), with a supporting photo. */
+/* One brand's service band (Viking), with a supporting photo. */
 function ServicesBand({ brand, city, image, eyebrow, flip }: { brand: Brand; city: string; image: string; eyebrow: string; flip?: boolean }) {
   return (
     <section style={{ background: "var(--color-canvas)", padding: "var(--space-xxl) var(--space-lg)", borderTop: "1px solid var(--color-hairline)" }}>
@@ -108,9 +108,9 @@ export function CityPage({ city, copy }: { city: City; copy: CityCopy }) {
           }}
         />
         <Reveal className="wrap" style={{ position: "relative", padding: "var(--space-super) var(--space-lg) var(--space-xxl)" }}>
-          <Eyebrow style={{ color: "rgba(255,255,255,0.92)", textShadow: heroShadow }}>Viking repair · {city.region}</Eyebrow>
+          <Eyebrow style={{ color: "rgba(255,255,255,0.92)", textShadow: heroShadow }}>Viking &amp; Viking repair · {city.region}</Eyebrow>
           <h1 className="d-mega hero-title" style={{ marginTop: "var(--space-sm)", maxWidth: "18ch", textShadow: heroShadow }}>
-            Viking repair · {city.name}, CA
+            Viking &amp; Viking repair · {city.name}, CA
           </h1>
           <p className="lede video-lede" style={{ marginTop: "var(--space-md)", maxWidth: "56ch", color: "rgba(255,255,255,0.9)", textShadow: heroShadow }}>
             {copy.subhead}
@@ -140,9 +140,9 @@ export function CityPage({ city, copy }: { city: City; copy: CityCopy }) {
         </div>
       </section>
 
-      {/* Services offered: refrigeration + cooking, balanced */}
-      <ServicesBand brand={VIKING_REFRIGERATION} city={city.name} image="/images/support/viking-kitchen-1" eyebrow="Viking · Refrigeration" />
-      <ServicesBand brand={VIKING_COOKING} city={city.name} image="/images/support/viking-kitchen-2" eyebrow="Viking · Cooking" flip />
+      {/* Services offered: the full Viking line, balanced */}
+      <ServicesBand brand={REFRIGERATION} city={city.name} image="/images/support/viking-kitchen-1" eyebrow="Viking · Refrigeration" />
+      <ServicesBand brand={COOKING} city={city.name} image="/images/support/viking-kitchen-2" eyebrow="Viking · Cooking" flip />
 
       {/* Why Onyx / trust */}
       <section style={{ background: "var(--gradient-graphite)", padding: "var(--space-xxl) var(--space-lg)", borderTop: "1px solid var(--color-hairline)" }}>

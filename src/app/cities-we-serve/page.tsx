@@ -59,7 +59,7 @@ export default function Page() {
         <Reveal className="wrap" style={{ padding: "var(--space-xl) var(--space-lg) var(--space-xxl)" }}>
           <Eyebrow>Service area · {SITE.region}</Eyebrow>
           <h1 className="d-mega" style={{ marginTop: "var(--space-sm)", maxWidth: "18ch" }}>
-            Viking repair across Los Angeles &amp; Southern California.
+            Viking &amp; Viking repair across Los Angeles &amp; Southern California.
           </h1>
           <p className="lede" style={{ marginTop: "var(--space-md)", maxWidth: "60ch" }}>
             Factory trained service for {CITIES.length} cities, from the gated estates of the Westside to the

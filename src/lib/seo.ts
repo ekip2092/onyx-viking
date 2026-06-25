@@ -13,7 +13,7 @@ export const SITE_URL = "https://www.onyxvikingservice.com";
 
 // ---------- Analytics IDs ----------
 export const GA4_ID = "G-XXXXXXXXXX"; // TODO(owner): real GA4 Measurement ID (Admin → Data Streams)
-export const ADS_ID = "AW-18249301786"; // real Google Ads conversion ID (same Ads account)
+export const ADS_ID = "AW-18249301786"; // real Google Ads conversion ID
 export const ADS_LABELS = {
   book: "p3PUCL-V2sEcEJr--P1D", // real — booking conversion label
   call: "PLACEHOLDER_ADS_CALL_LABEL", // TODO(owner): create a "Call" conversion action, paste label
@@ -59,7 +59,7 @@ export function localBusinessJsonLd(): Record<string, unknown> {
     areaServed: cityNodes,
     knowsAbout: [
       "Viking refrigerator repair",
-      "Viking wine cellar repair",
+      "Viking wine storage repair",
       "Viking range repair",
       "Viking oven repair",
     ],

@@ -52,7 +52,7 @@ export function Nav({ active }: { active?: string }) {
               marginTop: "3px",
             }}
           >
-            Viking Appliance Repair
+            Viking &amp; Viking Repair
           </span>
         </span>
       </Link>

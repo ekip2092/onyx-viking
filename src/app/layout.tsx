@@ -17,10 +17,10 @@ const inter = Inter({
   display: "swap",
 });
 
-const TITLE = `${SITE.name} · White Glove Viking Appliance Repair`;
+const TITLE = `${SITE.name} · White Glove Viking Repair`;
 // Kept under 155 characters for clean SERP rendering.
 const DESCRIPTION =
-  "Factory trained Viking appliance repair across Los Angeles & Southern California. Same day service, genuine parts, 3 year warranty. Call (877) 778-0227.";
+  "Factory trained Viking repair across Los Angeles & Southern California. Same day service, genuine parts, 3 year warranty. Call (877) 778-0227.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

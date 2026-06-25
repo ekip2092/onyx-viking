@@ -33,19 +33,19 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
       { t: "A technician at your door fast", d: "Same day and next day arrival windows across the Westside, the Valley, and the coast." },
     ],
   },
-  "viking-freezer-wine-cellar-repair-la": {
-    slug: "viking-freezer-wine-cellar-repair-la",
-    title: "Viking Freezer & Wine Cellar Repair in LA | Onyx",
-    h1: "Viking Freezer & Wine Cellar Repair in LA",
+  "viking-freezer-wine-storage-repair-la": {
+    slug: "viking-freezer-wine-storage-repair-la",
+    title: "Viking Freezer & Wine Fridge Repair in LA | Onyx",
+    h1: "Viking Freezer & Wine Storage Repair in LA",
     subhead:
-      "Factory trained on Viking freezers and wine cellars. Same day and next day visits, genuine OEM parts, and a 3 year warranty.",
+      "Factory trained on Viking freezers and wine storage. Same day and next day visits, genuine OEM parts, and a 3 year warranty.",
     description:
-      "Viking freezer and wine cellar repair in LA. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
-    symptomsHeading: "Freezer and wine cellar faults we fix",
+      "Viking freezer and wine storage repair in LA. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+    symptomsHeading: "Freezer and wine storage faults we fix",
     symptoms: [
       { t: "Freezer not freezing", d: "Soft ice and a warming compartment restored to a steady, factory set temperature." },
       { t: "Heavy frost buildup", d: "Excess ice traced to a defrost fault or a tired gasket and corrected properly." },
-      { t: "Wine cellar drifting warm", d: "Dual zone and humidity faults recalibrated, with the BottleProbe set to protect the cellar to the degree." },
+      { t: "Wine storage drifting warm", d: "Dual zone and humidity faults recalibrated to protect the cellar, to the degree." },
       { t: "Temperature control faults", d: "Erratic readings and control board errors diagnosed at the source." },
     ],
   },
@@ -91,14 +91,14 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
       "Viking compressor, seal, and sealed system repair in LA. Factory trained, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
     symptomsHeading: "Components we repair and replace",
     symptoms: [
-      { t: "Compressor and sealed system", d: "Sealed system and ProChill temperature faults diagnosed and repaired to factory spec." },
+      { t: "Compressor and sealed system", d: "Sealed system and compressor faults diagnosed and repaired to factory spec." },
       { t: "Door gaskets and seals", d: "Worn gaskets replaced so the cabinet holds cold and the compressor rests." },
-      { t: "Thermostats and evaporators", d: "Cooling components restored across the Professional 7 Series, Professional 5 Series, and Designer Series." },
+      { t: "Thermostats and evaporators", d: "Cooling components restored across the classic 650, 632, 561, and 690." },
       { t: "Genuine OEM components only", d: "Every part is Viking OEM, sourced direct, never aftermarket." },
     ],
   },
-  "viking-refrigerator-not-cooling-repair-la": {
-    slug: "viking-refrigerator-not-cooling-repair-la",
+  "viking-not-cooling-repair-la": {
+    slug: "viking-not-cooling-repair-la",
     title: "Viking Refrigerator Not Cooling? LA Repair | Onyx",
     h1: "Viking Refrigerator Not Cooling? We Fix It",
     subhead:
@@ -123,8 +123,8 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
       "Viking range and cooktop repair in Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
     symptomsHeading: "Viking range and cooktop faults we fix",
     symptoms: [
-      { t: "Burner will not light", d: "Clicking, sparking, and dead burners on VariSimmer sealed burners, corrected." },
-      { t: "Ignition faults", d: "SureSpark ignition modules and igniters restored for a clean, immediate light." },
+      { t: "Burner will not light", d: "Clicking, sparking, and dead burners on dual stacked sealed burners, corrected." },
+      { t: "Ignition faults", d: "Spark modules and igniters restored for a clean, immediate light." },
       { t: "Gas range problems", d: "Regulator and manifold flow issues that ruin a low simmer, put right." },
       { t: "Cooktop not working", d: "Unresponsive elements and controls diagnosed at the board." },
     ],
@@ -140,7 +140,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     symptomsHeading: "Viking oven faults we fix",
     symptoms: [
       { t: "Oven not heating", d: "Failed igniters and bake elements restored for consistent, calibrated heat." },
-      { t: "Will not hold temperature", d: "Drift and uneven baking traced to the sensor or the TruConvec convection fan." },
+      { t: "Will not hold temperature", d: "Drift and uneven baking traced to the sensor or the convection fan." },
       { t: "Self clean faults", d: "Locked doors and self clean errors cleared without damage." },
       { t: "Oven door and seals", d: "Hinge tension and gaskets restored so the oven keeps its heat." },
     ],
@@ -150,14 +150,14 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     title: "Viking Appliance Repair in LA | Onyx",
     h1: "Viking Appliance Repair in Los Angeles",
     subhead:
-      "One trusted name for every Viking appliance in the home, refrigeration and cooking alike. Factory trained, same day service, genuine OEM parts, 3 year warranty.",
+      "One trusted name for every Viking appliance in the home. Factory trained, same day service, genuine OEM parts, 3 year warranty.",
     description:
       "Viking appliance repair across Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
-    symptomsHeading: "The whole Viking kitchen, mastered",
+    symptomsHeading: "Every Viking appliance",
     symptoms: [
-      { t: "Any Viking appliance fault", d: "Refrigeration, wine cellars, ranges, and ovens, all under one trusted name." },
-      { t: "One call for the whole kitchen", d: "A single point of contact for every Viking appliance in the home." },
-      { t: "Factory trained on the marque", d: "One brand, mastered across refrigeration and cooking, and nothing else." },
+      { t: "Any Viking fault", d: "Refrigeration, wine storage, ranges, and ovens, all under one trusted name." },
+      { t: "One call for the whole kitchen", d: "A single point of contact for every luxury appliance in the home." },
+      { t: "Factory trained across the Viking line", d: "One brand, every appliance, and nothing else." },
       { t: "Near you across Los Angeles", d: "Same day and next day across the Westside, the Valley, and the coast." },
     ],
   },

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SITE, VIKING_REFRIGERATION, VIKING_COOKING, WARNING_SIGNS, type Brand } from "@/lib/site";
+import { SITE, REFRIGERATION, COOKING, WARNING_SIGNS, type Brand } from "@/lib/site";
 import { Shell } from "@/components/layout/Shell";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -14,7 +14,7 @@ const headerShadow = "0 1px 14px rgba(0,0,0,0.55), 0 1px 3px rgba(0,0,0,0.45)";
 export const metadata: Metadata = {
   title: "Problems We Fix",
   description:
-    "Viking faults we repair every week, from cooling and frost issues to igniters and control boards. 24 years on the Viking marque alone.",
+    "Viking faults we repair every week, from cooling and frost issues to igniters and control boards. 24 years on Viking appliances alone.",
   alternates: { canonical: "/problems" },
 };
 
@@ -177,8 +177,8 @@ export default function ProblemsPage() {
         every week, and the signs it’s time to call.
       </PhotoLede>
       <WarningSigns />
-      <ProblemGrid brand={VIKING_REFRIGERATION} accentEyebrow="Viking · Refrigeration" image="/appliances/viking_refrigerator.jpg" />
-      <ProblemGrid brand={VIKING_COOKING} accentEyebrow="Viking · Cooking" image="/appliances/viking_cooktop.jpg" />
+      <ProblemGrid brand={REFRIGERATION} accentEyebrow="Viking · Refrigeration" image="/appliances/viking_648prog.jpg" />
+      <ProblemGrid brand={COOKING} accentEyebrow="Viking · Cooking" image="/appliances/viking_cooktop.jpg" />
       <FixItAll />
     </Shell>
   );

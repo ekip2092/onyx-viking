@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SITE, VIKING_REFRIGERATION, VIKING_COOKING, REVIEWS, CITY_GROUPS } from "@/lib/site";
+import { SITE, REFRIGERATION, COOKING, REVIEWS, CITY_GROUPS } from "@/lib/site";
 import { AssuranceBand } from "@/components/sections/AssuranceBand";
 import { TrustBadges, HowWeWork, Specialists, FinalCta } from "@/components/sections/Landing";
 import { Faq } from "@/components/sections/Faq";
@@ -49,14 +49,14 @@ function ScopeBand() {
         <Reveal>
           <Eyebrow>What we service</Eyebrow>
           <h2 className="d-xl" style={{ marginTop: "var(--space-xs)", maxWidth: "20ch" }}>
-            One name. Total mastery.
+            One brand. Total mastery.
           </h2>
           <p className="lede" style={{ marginTop: "var(--space-sm)", maxWidth: "44ch" }}>
-            Every Viking appliance, restored to flawless.
+            Viking, restored to flawless.
           </p>
         </Reveal>
         <Reveal className="grid cols-2" stagger={0.1} style={{ marginTop: "var(--space-lg)", gap: "var(--space-md)" }}>
-          {[VIKING_REFRIGERATION, VIKING_COOKING].map((brand, i) => (
+          {[REFRIGERATION, COOKING].map((brand, i) => (
             <article
               key={i}
               style={{
@@ -69,12 +69,12 @@ function ScopeBand() {
             >
               <picture style={{ display: "block" }}>
                 <source
-                  srcSet={i === 0 ? "/appliances/viking_refrigerator.webp" : "/appliances/viking_range.webp"}
+                  srcSet={i === 0 ? "/appliances/viking_french_door.webp" : "/appliances/viking_range.webp"}
                   type="image/webp"
                 />
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={i === 0 ? "/appliances/viking_refrigerator.jpg" : "/appliances/viking_range.jpg"}
+                  src={i === 0 ? "/appliances/viking_french_door.jpg" : "/appliances/viking_range.jpg"}
                   alt={`${brand.label} appliance in a luxury kitchen`}
                   loading="lazy"
                   style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", display: "block" }}

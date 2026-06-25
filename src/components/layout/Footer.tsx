@@ -84,7 +84,7 @@ export function Footer() {
             Factory trained service for Viking, delivered with the discretion the homes we enter expect.
           </p>
           <p style={{ marginTop: "var(--space-sm)", color: "var(--color-muted)", fontSize: "12px" }}>
-            {SITE.name} is independent and not affiliated with, sponsored by, or endorsed by Viking Range, LLC.
+            {SITE.name} is independent and not affiliated with, sponsored by, or endorsed by Viking Range, LLC
           </p>
         </div>
         <div>

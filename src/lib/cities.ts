@@ -50,7 +50,7 @@ export function cityMetadata(city: City): Metadata {
       title,
       description,
       url,
-      images: [{ url: image, alt: `Viking appliance repair in ${city.name}, CA` }],
+      images: [{ url: image, alt: `Viking repair in ${city.name}, CA` }],
     },
     twitter: { card: "summary_large_image", title, description, images: [image] },
   };

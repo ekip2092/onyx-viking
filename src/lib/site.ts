@@ -1,8 +1,9 @@
 /* ============================================================
    ONYX VIKING SERVICES — brand data + content
    Single source of truth for copy. Update phone/email/cities
-   here and it flows site-wide. Onyx services the Viking brand
-   (refrigeration + cooking) across Los Angeles & SoCal.
+   here and it flows site-wide. Viking is a single full-line
+   brand, so its appliances are grouped into two service
+   categories below: REFRIGERATION and COOKING.
    ============================================================ */
 
 export type Problem = { t: string; d: string };
@@ -20,7 +21,7 @@ export const SITE = {
   // CA Bureau of Household Goods and Services registration (in progress). NOT CSLB.
   bearReg: "CA Appliance Service Dealer Reg. # ____ (BEAR)",
   disclaimer:
-    "Onyx Viking Services is independent and not affiliated with, sponsored by, or endorsed by Viking Range, LLC.",
+    "Onyx Viking Services is independent and not affiliated with, sponsored by, or endorsed by Viking Range, LLC",
   diagnosticFee: 95,
   ctaLabel: "Call now",
   // Stripe Payment Link for the $95 diagnostic deposit.
@@ -44,7 +45,7 @@ export const ASSURANCES: Problem[] = [
   },
   {
     t: "Genuine factory parts only",
-    d: "No aftermarket substitutes. Every component is genuine Viking OEM, sourced direct.",
+    d: "No aftermarket substitutes. Every component is Viking OEM, sourced direct.",
   },
   {
     t: "White glove home protection",
@@ -64,9 +65,9 @@ export const ASSURANCES: Problem[] = [
   },
 ];
 
-export const VIKING_REFRIGERATION: Brand = {
-  label: "Viking Refrigeration",
-  line: "Refrigerators · Freezers · Wine Cellars",
+export const REFRIGERATION: Brand = {
+  label: "Refrigeration",
+  line: "Refrigerators · Freezers · Built-Ins · Wine Storage",
   problems: [
     { t: "Refrigerator not cooling", d: "Temperature drift, warm zones, or food spoiling early. Usually a failing thermostat, sealed system, or compressor." },
     { t: "Freezer not freezing", d: "Soft ice cream and frost on the walls point to a defrost system or evaporator fan that has failed." },
@@ -74,20 +75,20 @@ export const VIKING_REFRIGERATION: Brand = {
     { t: "Door not sealing", d: "A broken vacuum seal lets cold escape and runs the compressor hard. We restore airtight gasket integrity." },
     { t: "Ice maker not making ice", d: "No ice, low production, or leaks at the water inlet valve, diagnosed and repaired in one visit." },
     { t: "Water leaking from the bottom", d: "A clogged defrost drain or a split water line, traced to the source and sealed properly." },
-    { t: "Buzzing and loud operation", d: "Viking refrigerators run quiet. Grinding or buzzing is a fan motor or compressor calling for attention." },
-    { t: "ProChill and error codes", d: "ProChill temperature faults, control board errors, and light faults, read and corrected." },
-    { t: "Wine cellar temperature", d: "Dual zone drift and humidity faults that threaten a cellar, recalibrated to spec." },
+    { t: "Buzzing and loud operation", d: "Viking refrigerators run nearly silent. Grinding or buzzing is a fan motor or compressor calling for attention." },
+    { t: "Condenser and error codes", d: '"Vacuum Condenser" and "Service" codes, control board errors, and light faults, cleared and corrected.' },
+    { t: "Wine storage temperature", d: "Dual zone drift and humidity faults that threaten a cellar, recalibrated to spec." },
   ],
 };
 
-export const VIKING_COOKING: Brand = {
-  label: "Viking Cooking",
-  line: "Ranges · Cooktops · Wall Ovens",
+export const COOKING: Brand = {
+  label: "Cooking",
+  line: "Ranges · Stoves · Ovens · Wall Ovens · Cooktops",
   problems: [
     { t: "Oven won’t heat or hold temp", d: "Failed igniters and bake elements restored for consistent, calibrated baking heat." },
-    { t: "Uneven baking", d: "TruConvec fan motor failures and airflow faults that cook one side faster than the other." },
-    { t: "Burner won’t light or clicks", d: "Continuous clicking and ignition faults on the VariSimmer sealed burners, corrected." },
-    { t: "Range flame control", d: "Gas regulator pressure and manifold flow issues that make a true low simmer impossible." },
+    { t: "Uneven baking", d: "Convection fan motor failures and airflow faults that cook one side faster than the other." },
+    { t: "Burner won’t light or clicks", d: "Continuous clicking and spark module faults on dual stacked sealed burners, corrected." },
+    { t: "Range flame control", d: "Gas regulator pressure and manifold flow issues that make a low simmer impossible." },
     { t: "Touch panel and display errors", d: "Unresponsive touchscreens and digital error codes diagnosed at the board level." },
     { t: "Door and gasket heat loss", d: "Hinge tension and gasket seals restored so the oven holds its heat where it belongs." },
   ],
@@ -101,18 +102,18 @@ export const CITY_GROUPS: CityGroup[] = [
 ];
 
 export const FEATURED_CITIES = [
-  { name: "Beverly Hills", note: "Built in Viking kitchens and estates" },
+  { name: "Beverly Hills", note: "Built in Viking estates" },
   { name: "Bel Air", note: "Discreet service, strictly by appointment" },
   { name: "Malibu", note: "Coastal homes and salt air corrosion care" },
   { name: "Pacific Palisades", note: "Same day across the Westside" },
-  { name: "Pasadena", note: "Historic kitchens, modern marques" },
-  { name: "Santa Monica", note: "Wine cellar and dual zone specialists" },
+  { name: "Pasadena", note: "Historic kitchens, modern Viking appliances" },
+  { name: "Santa Monica", note: "Wine storage and dual zone specialists" },
 ];
 
 export const REVIEWS = [
   { q: "Our 48 inch Viking went down the day before a dinner for twenty. They were in Bel Air within hours, parts on the truck, and never left a mark on the floors.", n: "R. Calloway", c: "Bel Air" },
   { q: "The only people I let touch the Viking range. Calm, precise, genuinely expert, and they explain exactly what failed and why.", n: "M. Adeyemi", c: "Pacific Palisades" },
-  { q: "A wine cellar holding 600 bottles was drifting warm. They recalibrated it the same afternoon and saved the cellar. Worth every cent.", n: "D. Hartman", c: "Montecito" },
+  { q: "A wine cooler holding 600 bottles was drifting warm. They recalibrated it the same afternoon and saved the cellar. Worth every cent.", n: "D. Hartman", c: "Montecito" },
 ];
 
 export const WARNING_SIGNS: Problem[] = [
@@ -126,10 +127,13 @@ export const WARNING_SIGNS: Problem[] = [
 export const APPLIANCES = [
   "Viking refrigerator",
   "Viking freezer",
-  "Viking wine cellar",
+  "Viking built-in fridge/freezer",
   "Viking range",
-  "Viking cooktop",
+  "Viking stove",
+  "Viking oven",
   "Viking wall oven",
+  "Viking cooktop",
+  "Viking wine storage",
 ];
 
 // Three hour arrival windows across the 7am to 7pm service day.
@@ -151,7 +155,7 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Do you use genuine parts?",
-    a: "Only genuine Viking OEM components, sourced direct. No aftermarket substitutes, ever.",
+    a: "Only Viking OEM components, sourced direct. No aftermarket substitutes, ever.",
   },
   {
     q: "What does the $95 diagnostic include?",

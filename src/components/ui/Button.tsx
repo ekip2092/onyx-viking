@@ -51,7 +51,6 @@ export function Button({
     gap: "var(--space-xxs)",
     cursor: disabled ? "not-allowed" : "pointer",
     opacity: disabled ? 0.4 : 1,
-    transition: "background-color 120ms ease, border-color 120ms ease, color 120ms ease",
     boxSizing: "border-box",
     whiteSpace: "nowrap",
     userSelect: "none",
@@ -99,20 +98,20 @@ export function Button({
     const isInternal = href.startsWith("/");
     if (isInternal) {
       return (
-        <Link href={href} style={composed} {...pressHandlers}>
+        <Link href={href} className="onyx-btn" style={composed} {...pressHandlers}>
           {children}
         </Link>
       );
     }
     return (
-      <a href={href} style={composed} {...pressHandlers}>
+      <a href={href} className="onyx-btn" style={composed} {...pressHandlers}>
         {children}
       </a>
     );
   }
 
   return (
-    <button type={type} disabled={disabled} onClick={onClick} style={composed} {...pressHandlers}>
+    <button type={type} disabled={disabled} onClick={onClick} className="onyx-btn" style={composed} {...pressHandlers}>
       {children}
     </button>
   );

@@ -104,7 +104,7 @@ export function Specialists() {
           Your Viking experts.
         </h2>
         <p className="lede" style={{ marginTop: "var(--space-md)" }}>
-          Certified, background checked technicians who work on the marque and nothing else. No call centres, no
+          Certified, background checked technicians who work on Viking appliances and nothing else. No call centres, no
           rotating subcontractors, no guesswork. The depth that only comes from doing one thing, exceptionally.
         </p>
         <div style={{ marginTop: "var(--space-lg)", display: "flex", flexWrap: "wrap", gap: "10px" }}>
