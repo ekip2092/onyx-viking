@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 function CitiesHeader() {
   return (
     <section style={{ position: "relative", overflow: "hidden", background: "var(--color-canvas)", borderBottom: "1px solid var(--color-hairline)" }}>
-      <HeaderVideoBg src="/tech-door_16x9_web.webm" objectPosition="center 18%" />
+      <HeaderVideoBg src="/tech-door_16x9_web.webm" poster="/tech-door_poster.jpg" objectPosition="center 18%" />
       <Reveal className="wrap" style={{ position: "relative", padding: "var(--space-super) var(--space-lg) var(--space-xxl)" }}>
         <Eyebrow style={{ color: "rgba(255,255,255,0.92)", textShadow: headerShadow }}>Service area · {SITE.region}</Eyebrow>
         <h1 className="d-mega hero-title" style={{ marginTop: "var(--space-sm)", maxWidth: "16ch", textShadow: headerShadow }}>

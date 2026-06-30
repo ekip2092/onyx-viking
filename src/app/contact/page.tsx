@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 function ContactHeader() {
   return (
     <section style={{ position: "relative", overflow: "hidden", background: "var(--color-canvas)", borderBottom: "1px solid var(--color-hairline)" }}>
-      <HeaderVideoBg src="/phonecall_bg_website.mp4" mobileSrc="/phonecall_bg_mobile.mp4" objectPosition="center 22%" />
+      <HeaderVideoBg src="/phonecall_bg_website.mp4" mobileSrc="/phonecall_bg_mobile.mp4" poster="/phonecall_bg_poster.jpg" objectPosition="center 22%" />
       <Reveal className="wrap" style={{ position: "relative", padding: "var(--space-super) var(--space-lg) var(--space-xl)" }}>
         <Eyebrow style={{ color: "rgba(255,255,255,0.92)", textShadow: headerShadow }}>Contact · Same day service</Eyebrow>
         <h1 className="d-mega hero-title" style={{ marginTop: "var(--space-sm)", maxWidth: "14ch", textShadow: headerShadow }}>
