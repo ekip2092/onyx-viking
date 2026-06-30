@@ -1,30 +1,278 @@
 {
-  "Beverly Hills": { "img": "/cities/beverly-hills.jpg", "artist": "Tony Hisgett", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Beverly_Wilshire_Hotel_(15676919512).jpg" },
-  "Bel Air": { "img": "/cities/bel-air.jpg", "artist": "Leahcim506", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Belair.jpg" },
-  "Holmby Hills": { "img": "/cities/holmby-hills.jpg", "artist": "Atwater Village Newbie", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:The_Manor,_Holmby_Hills,_Los_Angeles,_in_2008.jpg" },
-  "Brentwood": { "img": "/cities/brentwood.jpg", "artist": "Jengod", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Brentwood_Bundy_palms_01.jpg" },
-  "Pacific Palisades": { "img": "/cities/pacific-palisades.jpg", "artist": "Don Ramey Logan", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Pacific_Palisades_Photo_D_Ramey_Logan.jpg" },
-  "Malibu": { "img": "/cities/malibu.jpg", "artist": "Tillman", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:MalibuAir.jpg" },
-  "Santa Monica": { "img": "/cities/santa-monica.jpg", "artist": "User2004", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Casa_del_Mar_Santa_Monica_(cropped).jpg" },
-  "Hancock Park": { "img": "/cities/hancock-park.jpg", "artist": "Los Angeles", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Petitfils-Boos_House,_Hancock_Park.JPG" },
-  "Encino": { "img": "/cities/encino.jpg", "artist": "JGKlein", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Encino_Commons,_Valley's_Miracle_Mile.JPG" },
-  "Sherman Oaks": { "img": "/cities/sherman-oaks.jpg", "artist": "Cbl62", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Village_of_Sherman_Oaks_-_Van_Nuys_Blvd._at_Ventura.JPG" },
-  "Studio City": { "img": "/cities/studio-city.jpg", "artist": "Jengod", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Studio_City_2024_Feb_01.jpg" },
-  "Tarzana": { "img": "/cities/tarzana.jpg", "artist": "Cbl62", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:2007_Muhlholland_Park_Gate.JPG" },
-  "Calabasas": { "img": "/cities/calabasas.jpg", "artist": "brewbooks", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Airborne_over_Calabasas,_California.jpg" },
-  "Hidden Hills": { "img": "/cities/hidden-hills.jpg", "artist": "Unknown author", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Long_Valley_Road_gate,_Hidden_Hills,_California.jpg" },
-  "Toluca Lake": { "img": "/cities/toluca-lake.png", "artist": "TAnthony", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:TolucaLake-Est1923.png" },
-  "Woodland Hills": { "img": "/cities/woodland-hills.jpg", "artist": "Oakshade", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Woodland_Hills_vista.jpg" },
-  "Pasadena": { "img": "/cities/pasadena.jpg", "artist": "David Wakely", "license": "CC BY-SA 2.5", "source": "https://commons.wikimedia.org/wiki/File:Pasadena_City_Hall_David_Wakely_(cropped).jpg" },
-  "San Marino": { "img": "/cities/san-marino.jpg", "artist": "sebi ryffel", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Rose_Garden_Temple_of_Love_at_Huntington_Library.jpg" },
-  "La Cañada Flintridge": { "img": "/cities/la-canada-flintridge.jpg", "artist": "Doc Searls", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:La_Cañada_Flintridge_&_the_210_Freeway.jpg" },
-  "Sierra Madre": { "img": "/cities/sierra-madre.jpg", "artist": "Telecineguy", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Old_North_Church,_Sierra_Madre,_California.jpg" },
-  "Glendale": { "img": "/cities/glendale.jpg", "artist": "Quintin Soloviev", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Glendale,_California_skyline.jpg" },
-  "Los Feliz": { "img": "/cities/los-feliz.jpg", "artist": "MichaelJLocke", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Abraham_Gore_Residence,_Harry_B._Aarens,_Architect_1927_(cropped).jpg" },
-  "Manhattan Beach": { "img": "/cities/manhattan-beach.jpg", "artist": "Evanthomas1", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Manhattan_Pier.jpg" },
-  "Palos Verdes": { "img": "/cities/palos-verdes.jpg", "artist": "Abby Lanes", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Malaga_Cove_by_Abby_Lanes.jpg" },
-  "Hermosa Beach": { "img": "/cities/hermosa-beach.jpg", "artist": "Estrategy", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Hermosa_beach_summer_day.jpg" },
-  "Redondo Beach": { "img": "/cities/redondo-beach.jpg", "artist": "Funhistory", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:RedondoBeachKingHarborSign.jpg" },
-  "Newport Beach": { "img": "/cities/newport-beach.jpg", "artist": "Don Ramey Logan", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:The_City_of_Newport_Beach_July_2014_photo_Don_Ramey_Logan.jpg" },
-  "Santa Barbara": { "img": "/cities/santa-barbara.jpg", "artist": "Pierre André", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Santa_Barbara_Downtown_(may_2012)_(2)_(cropped).jpg" }
+    "Agoura Hills":  {
+                         "img":  "/cities/agoura-hills.jpg",
+                         "artist":  "Arspickles17 at English Wikipedia",
+                         "license":  "CC BY-SA 3.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Agouravista.jpg"
+                     },
+    "Altadena":  {
+                     "img":  "/cities/altadena.jpg",
+                     "artist":  "Bruce Perry",
+                     "license":  "CC BY-SA 2.0",
+                     "source":  "https://commons.wikimedia.org/wiki/File:Eaton_canyon_from_the_air.jpg"
+                 },
+    "Bel Air":  {
+                    "img":  "/cities/bel-air.jpg",
+                    "artist":  "Leahcim506 at English Wikipedia",
+                    "license":  "Public domain",
+                    "source":  "https://commons.wikimedia.org/wiki/File:Belair.jpg"
+                },
+    "Beverly Hills":  {
+                          "img":  "/cities/beverly-hills.jpg",
+                          "artist":  "Tony Hisgett from Birmingham, UK",
+                          "license":  "CC BY 2.0",
+                          "source":  "https://commons.wikimedia.org/wiki/File:Beverly_Wilshire_Hotel_(15676919512).jpg"
+                      },
+    "Brentwood":  {
+                      "img":  "/cities/brentwood.jpg",
+                      "artist":  "Jengod",
+                      "license":  "CC BY-SA 4.0",
+                      "source":  "https://commons.wikimedia.org/wiki/File:Brentwood_Bundy_palms_01.jpg"
+                  },
+    "Calabasas":  {
+                      "img":  "/cities/calabasas.jpg",
+                      "artist":  "brewbooks",
+                      "license":  "CC BY-SA 2.0",
+                      "source":  "https://commons.wikimedia.org/wiki/File:Airborne_over_Calabasas,_California.jpg"
+                  },
+    "Century City":  {
+                         "img":  "/cities/century-city.jpg",
+                         "artist":  "Basil D Soufi",
+                         "license":  "CC BY-SA 3.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Century_City_Towers.jpg"
+                     },
+    "Chatsworth":  {
+                       "img":  "/cities/chatsworth.jpg",
+                       "artist":  "Los Angeles Times",
+                       "license":  "CC BY 2.0",
+                       "source":  "https://commons.wikimedia.org/wiki/File:Map_of_Chatsworth_neighborhood,_Los_Angeles,_California.png"
+                   },
+    "Culver City":  {
+                        "img":  "/cities/culver-city.jpg",
+                        "artist":  "Jengod",
+                        "license":  "CC BY-SA 4.0",
+                        "source":  "https://commons.wikimedia.org/wiki/File:Culver_City_sign_at_Culver_Pointe_offices.jpg"
+                    },
+    "El Segundo":  {
+                       "img":  "/cities/el-segundo.jpg",
+                       "artist":  "EEJCC",
+                       "license":  "CC0",
+                       "source":  "https://commons.wikimedia.org/wiki/File:New_El_Segundo_welcome_sign.jpg"
+                   },
+    "Encino":  {
+                   "img":  "/cities/encino.jpg",
+                   "artist":  "JGKlein",
+                   "license":  "Public domain",
+                   "source":  "https://commons.wikimedia.org/wiki/File:Encino_Commons,_Valley\u0027s_Miracle_Mile.JPG"
+               },
+    "Glendale":  {
+                     "img":  "/cities/glendale.jpg",
+                     "artist":  "Quintin Soloviev",
+                     "license":  "CC BY 4.0",
+                     "source":  "https://commons.wikimedia.org/wiki/File:Glendale,_California_skyline.jpg"
+                 },
+    "Granada Hills":  {
+                          "img":  "/cities/granada-hills.jpg",
+                          "artist":  "Jdaskew",
+                          "license":  "Public domain",
+                          "source":  "https://commons.wikimedia.org/wiki/File:Granada_Hills_CA_2010.jpg"
+                      },
+    "Hancock Park":  {
+                         "img":  "/cities/hancock-park.jpg",
+                         "artist":  "Los Angeles",
+                         "license":  "CC BY-SA 3.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Petitfils-Boos_House,_Hancock_Park.JPG"
+                     },
+    "Hermosa Beach":  {
+                          "img":  "/cities/hermosa-beach.jpg",
+                          "artist":  "The original uploader was Estrategy at English Wikipedia.",
+                          "license":  "CC BY-SA 3.0",
+                          "source":  "https://commons.wikimedia.org/wiki/File:Hermosa_beach_summer_day.jpg"
+                      },
+    "Hidden Hills":  {
+                         "img":  "/cities/hidden-hills.jpg",
+                         "artist":  "Unknown authorUnknown author",
+                         "license":  "Public domain",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Long_Valley_Road_gate,_Hidden_Hills,_California.jpg"
+                     },
+    "Hollywood":  {
+                      "img":  "/cities/hollywood.jpg",
+                      "artist":  "Michael E. Arth",
+                      "license":  "CC BY-SA 4.0",
+                      "source":  "https://commons.wikimedia.org/wiki/File:View_from_behind_Hollywood_Sign_overlooking_LA.jpg"
+                  },
+    "Los Feliz":  {
+                      "img":  "/cities/los-feliz.jpg",
+                      "artist":  "MichaelJLocke",
+                      "license":  "CC BY-SA 4.0",
+                      "source":  "https://commons.wikimedia.org/wiki/File:Abraham_Gore_Residence,_Harry_B._Aarens,_Architect_1927_(cropped).jpg"
+                  },
+    "Malibu":  {
+                   "img":  "/cities/malibu.jpg",
+                   "artist":  "The original uploader was Tillman at English Wikipedia.",
+                   "license":  "CC BY-SA 2.0",
+                   "source":  "https://commons.wikimedia.org/wiki/File:MalibuAir.jpg"
+               },
+    "Manhattan Beach":  {
+                            "img":  "/cities/manhattan-beach.jpg",
+                            "artist":  "Evanthomas1 at English Wikipedia",
+                            "license":  "Public domain",
+                            "source":  "https://commons.wikimedia.org/wiki/File:Manhattan_Pier.jpg"
+                        },
+    "Marina del Rey":  {
+                           "img":  "/cities/marina-del-rey.jpg",
+                           "artist":  "Alexander Migl",
+                           "license":  "CC BY-SA 4.0",
+                           "source":  "https://commons.wikimedia.org/wiki/File:Marina_del_Rey_P4070297.jpg"
+                       },
+    "Moorpark":  {
+                     "img":  "/cities/moorpark.jpg",
+                     "artist":  "Justin N",
+                     "license":  "CC BY-SA 2.0",
+                     "source":  "https://commons.wikimedia.org/wiki/File:Moorpark_Metrolink.jpg"
+                 },
+    "Newport Beach":  {
+                          "img":  "/cities/newport-beach.jpg",
+                          "artist":  "Don Ramey Logan",
+                          "license":  "CC BY-SA 4.0",
+                          "source":  "https://commons.wikimedia.org/wiki/File:The_City_of_Newport_Beach_July_2014_photo_Don_Ramey_Logan.jpg"
+                      },
+    "Pacific Palisades":  {
+                              "img":  "/cities/pacific-palisades.jpg",
+                              "artist":  "Don Ramey Logan",
+                              "license":  "CC BY-SA 4.0",
+                              "source":  "https://commons.wikimedia.org/wiki/File:Pacific_Palisades_Photo_Don_Ramey_Logan.jpg"
+                          },
+    "Palos Verdes":  {
+                         "img":  "/cities/palos-verdes.jpg",
+                         "artist":  "Abby Lanes",
+                         "license":  "CC BY-SA 3.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Malaga_Cove_by_Abby_Lanes.jpg"
+                     },
+    "Pasadena":  {
+                     "img":  "/cities/pasadena.jpg",
+                     "artist":  "David Wakely",
+                     "license":  "CC BY-SA 2.5",
+                     "source":  "https://commons.wikimedia.org/wiki/File:Pasadena_City_Hall_David_Wakely_(cropped).jpg"
+                 },
+    "Playa del Rey":  {
+                          "img":  "/cities/playa-del-rey.jpg",
+                          "artist":  "Jengod",
+                          "license":  "CC BY-SA 4.0",
+                          "source":  "https://commons.wikimedia.org/wiki/File:Playa_Del_Rey_Los_Angeles_batch_2023_March_06.jpg"
+                      },
+    "Playa Vista":  {
+                        "img":  "/cities/playa-vista.jpg",
+                        "artist":  "Downtowngal",
+                        "license":  "CC BY-SA 4.0",
+                        "source":  "https://commons.wikimedia.org/wiki/File:Bluff_Creek_and_Playa_Vista.jpg"
+                    },
+    "Redondo Beach":  {
+                          "img":  "/cities/redondo-beach.jpg",
+                          "artist":  "Funhistory at English Wikipedia",
+                          "license":  "Public domain",
+                          "source":  "https://commons.wikimedia.org/wiki/File:RedondoBeachKingHarborSign.jpg"
+                      },
+    "San Marino":  {
+                       "img":  "/cities/san-marino.jpg",
+                       "artist":  "sebi ryffel from Los Angeles",
+                       "license":  "CC BY-SA 2.0",
+                       "source":  "https://commons.wikimedia.org/wiki/File:Rose_Garden_Temple_of_Love_at_Huntington_Library.jpg"
+                   },
+    "Santa Barbara":  {
+                          "img":  "/cities/santa-barbara.jpg",
+                          "artist":  "Pierre AndrÃƒÂ©",
+                          "license":  "CC BY-SA 4.0",
+                          "source":  "https://commons.wikimedia.org/wiki/File:Santa_Barbara_Downtown_(may_2012)_(2)_(cropped).jpg"
+                      },
+    "Santa Monica":  {
+                         "img":  "/cities/santa-monica.jpg",
+                         "artist":  "User:User2004",
+                         "license":  "Public domain",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Casa_del_Mar_Santa_Monica_(cropped).jpg"
+                     },
+    "Sherman Oaks":  {
+                         "img":  "/cities/sherman-oaks.jpg",
+                         "artist":  "Cbl62 (talk)",
+                         "license":  "CC BY-SA 3.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Village_of_Sherman_Oaks_-_Van_Nuys_Blvd._at_Ventura.JPG"
+                     },
+    "Sierra Madre":  {
+                         "img":  "/cities/sierra-madre.jpg",
+                         "artist":  "Telecineguy",
+                         "license":  "CC BY-SA 3.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Old_North_Church,_Sierra_Madre,_California.jpg"
+                     },
+    "Simi Valley":  {
+                        "img":  "/cities/simi-valley.jpg",
+                        "artist":  "Alfred Twu",
+                        "license":  "CC0",
+                        "source":  "https://commons.wikimedia.org/wiki/File:Simi-Valley-Aerial-from-west-with-mountains-August-2014.jpg"
+                    },
+    "Studio City":  {
+                        "img":  "/cities/studio-city.jpg",
+                        "artist":  "Jengod",
+                        "license":  "CC BY-SA 4.0",
+                        "source":  "https://commons.wikimedia.org/wiki/File:Studio_City_2024_Feb_01.jpg"
+                    },
+    "Tarzana":  {
+                    "img":  "/cities/tarzana.jpg",
+                    "artist":  "Cbl62 (talk)",
+                    "license":  "CC BY-SA 3.0",
+                    "source":  "https://commons.wikimedia.org/wiki/File:2007_Muhlholland_Park_Gate.JPG"
+                },
+    "Thousand Oaks":  {
+                          "img":  "/cities/thousand-oaks.jpg",
+                          "artist":  "Niceley",
+                          "license":  "CC BY-SA 4.0",
+                          "source":  "https://commons.wikimedia.org/wiki/File:Mount-Clef-Ridge-Wildwood-Thousand-Oaks-Mountclef.jpg"
+                      },
+    "Toluca Lake":  {
+                        "img":  "/cities/toluca-lake.jpg",
+                        "artist":  "TAnthony",
+                        "license":  "Public domain",
+                        "source":  "https://commons.wikimedia.org/wiki/File:TolucaLake-Est1923.png"
+                    },
+    "Topanga":  {
+                    "img":  "/cities/topanga.jpg",
+                    "artist":  "Rneches",
+                    "license":  "CC BY 2.5",
+                    "source":  "https://commons.wikimedia.org/wiki/File:Topanga_Canyon_trail.png"
+                },
+    "Westchester":  {
+                        "img":  "/cities/westchester.jpg",
+                        "artist":  "Sfsichi",
+                        "license":  "CC BY-SA 4.0",
+                        "source":  "https://commons.wikimedia.org/wiki/File:New_Westchester_(Los_Angeles)_Neighborhood_Sign.jpg"
+                    },
+    "Westlake Village":  {
+                             "img":  "/cities/westlake-village.jpg",
+                             "artist":  "Niceley",
+                             "license":  "CC BY-SA 4.0",
+                             "source":  "https://commons.wikimedia.org/wiki/File:Aerial-of-Westlake-Lake-in-Westlake-Village.jpg"
+                         },
+    "Woodland Hills":  {
+                           "img":  "/cities/woodland-hills.jpg",
+                           "artist":  "Oakshade at en.wikipedia",
+                           "license":  "CC BY-SA 3.0",
+                           "source":  "https://commons.wikimedia.org/wiki/File:Woodland_Hills_vista.jpg"
+                       },
+    "Holmby Hills":  {
+                         "img":  "/cities/holmby-hills.jpg",
+                         "artist":  "Atwater Village Newbie",
+                         "license":  "CC BY 2.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:The_Manor,_Holmby_Hills,_Los_Angeles,_in_2008.jpg"
+                     },
+    "Porter Ranch":  {
+                         "img":  "/cities/porter-ranch.jpg",
+                         "artist":  "Los Angeles Times",
+                         "license":  "CC BY 2.0",
+                         "source":  "https://commons.wikimedia.org/wiki/File:Boundaries_of_Porter_Ranch_neighborhood,_Los_Angeles,_California.jpg"
+                     },
+    "La Cañada Flintridge":  {
+                                 "img":  "/cities/la-canada-flintridge.jpg",
+                                 "artist":  "Doc Searls",
+                                 "license":  "CC BY 2.0",
+                                 "source":  "https://commons.wikimedia.org/wiki/File:La_Cañada_Flintridge_\u0026_the_210_Freeway.jpg"
+                             }
 }
