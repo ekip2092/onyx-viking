@@ -437,25 +437,47 @@ img { display: block; max-width: 100%; }
   outline-offset: 2px;
 }
 
-/* ---- Hover motion (Apple-style subtle lift). Suppressed under reduced-motion
-   by the global gate below, and only on real hover-capable pointers. ---- */
+/* ---- Hover + press motion (lively spring lift). Suppressed under
+   reduced-motion by the global gate below; only on hover-capable pointers. ---- */
 @media (hover: hover) and (pointer: fine) {
   .onyx-btn {
-    transition: transform 0.22s cubic-bezier(0.2, 0.7, 0.3, 1), filter 0.2s ease,
-      background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+    transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.4, 1), box-shadow 0.28s ease,
+      filter 0.2s ease, background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    will-change: transform;
   }
-  .onyx-btn:hover { transform: translateY(-1px); filter: brightness(1.08); }
-  .onyx-btn:active { transform: translateY(0); filter: brightness(0.96); }
+  .onyx-btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    filter: brightness(1.1);
+    box-shadow: 0 12px 26px -8px rgba(218, 41, 28, 0.55);
+  }
+  .onyx-btn:active {
+    transform: translateY(0) scale(0.96);
+    filter: brightness(0.94);
+    transition-duration: 0.08s;
+  }
 
   a:not(.onyx-btn) {
-    transition: transform 0.22s cubic-bezier(0.2, 0.7, 0.3, 1), color 0.15s ease, opacity 0.2s ease;
+    transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.4, 1), color 0.15s ease,
+      box-shadow 0.28s ease, opacity 0.2s ease;
   }
-  a:not(.onyx-btn):hover { transform: translateY(-1px); }
+  a:not(.onyx-btn):hover { transform: translateY(-2px) scale(1.04); }
+  a:not(.onyx-btn):active { transform: translateY(0) scale(0.98); transition-duration: 0.08s; }
+
+  /* bordered card / chip links: lift + enlarge + red glow shadow */
+  a[style*="border"]:not(.onyx-btn):hover {
+    box-shadow: 0 14px 32px -10px rgba(218, 41, 28, 0.5);
+  }
+  /* nav text links: soft red glow on hover (stays while hovered, not a flash) */
+  .nav-link:hover { box-shadow: 0 8px 20px -6px rgba(218, 41, 28, 0.6); }
 }
 
 /* ---- Misc ---- */
 .hairline { border: none; border-top: 1px solid var(--color-hairline); margin: 0; }
 .list-reset { list-style: none; margin: 0; padding: 0; }
+
+/* Nav link underline via class (not inline border, so it never triggers the card hover shadow). */
+.nav-link { padding-bottom: 4px; border-bottom: 2px solid transparent; }
+.nav-link.active { border-bottom-color: var(--color-primary); }
 
 /* ---- GSAP entrance (opacity-safe: content is visible if JS never runs,
    and motion is suppressed under reduced-motion). The .gsap-reveal class

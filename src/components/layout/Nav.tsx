@@ -14,9 +14,8 @@ export function Nav({ active }: { active?: string }) {
         top: 0,
         zIndex: 50,
         height: "72px",
-        background: "rgba(24,24,24,0.92)",
-        backdropFilter: "blur(8px)",
-        WebkitBackdropFilter: "blur(8px)",
+        // Solid-ish bg (no backdrop-filter: it clips the CTA's hover shadow).
+        background: "rgba(22,22,22,0.97)",
         borderBottom: "1px solid var(--color-hairline)",
         display: "flex",
         alignItems: "center",
@@ -62,6 +61,7 @@ export function Nav({ active }: { active?: string }) {
           <Link
             key={p.id}
             href={p.href}
+            className={"nav-link" + (active === p.id ? " active" : "")}
             style={{
               fontFamily: "var(--font-family)",
               fontSize: "var(--type-nav-link-size)",
@@ -70,8 +70,6 @@ export function Nav({ active }: { active?: string }) {
               textTransform: "uppercase",
               textDecoration: "none",
               color: active === p.id ? "var(--color-ink)" : "var(--color-body)",
-              paddingBottom: "4px",
-              borderBottom: active === p.id ? "2px solid var(--color-primary)" : "2px solid transparent",
             }}
           >
             {p.label}
