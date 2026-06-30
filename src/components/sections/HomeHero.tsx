@@ -92,7 +92,7 @@ export function HomeHero({
           loop
           playsInline
           poster="/kitchen_bg_poster.jpg"
-          style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "118%", objectFit: "cover" }}
+          style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
         >
           <source src="/kitchen_bg_website.mp4" type="video/mp4" />
         </video>
