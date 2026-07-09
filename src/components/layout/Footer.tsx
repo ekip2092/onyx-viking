@@ -127,7 +127,7 @@ export function Footer() {
           © 2026 {SITE.name} · Serving {SITE.region}
         </span>
         <span style={{ color: "var(--color-muted)", fontSize: "var(--type-caption-size)" }}>
-          <Link href="/photo-credits" style={{ color: "inherit", textDecoration: "none" }}>Photo credits</Link> · Terms · Privacy · Licensed &amp; Insured · {SITE.bearReg}
+          <Link href="/photo-credits" style={{ color: "inherit", textDecoration: "none" }}>Photo credits</Link> · Terms · Privacy · Licensed &amp; Insured
         </span>
       </div>
     </footer>

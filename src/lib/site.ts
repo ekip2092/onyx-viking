@@ -18,8 +18,6 @@ export const SITE = {
   hours: "Open daily, 7am to 7pm",
   region: "Los Angeles & Southern California",
   address: "By appointment · Beverly Hills, CA",
-  // CA Bureau of Household Goods and Services registration (in progress). NOT CSLB.
-  bearReg: "CA Appliance Service Dealer Reg. # ____ (BEAR)",
   disclaimer:
     "Onyx Viking Services is independent and not affiliated with, sponsored by, or endorsed by Viking Range, LLC",
   diagnosticFee: 95,

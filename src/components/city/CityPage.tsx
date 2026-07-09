@@ -23,7 +23,7 @@ const WHY = [
   { t: "White glove home protection", d: "Floors, stone, and cabinetry are draped and protected before a single panel comes off." },
   { t: `Flat $${SITE.diagnosticFee} diagnostic`, d: "A fixed diagnostic fee, credited in full toward your repair. No hourly meter, no surprises." },
   { t: "Concierge scheduling", d: "One point of contact, arrival windows kept, and updates by text or call, whichever you prefer." },
-  { t: "Licensed and insured", d: `Bonded and fully insured on every visit. ${SITE.bearReg}.` },
+  { t: "Licensed and insured", d: "Bonded and fully insured on every visit." },
 ];
 
 /* One brand's service band (Viking), with a supporting photo. */
