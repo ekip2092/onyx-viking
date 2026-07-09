@@ -15,7 +15,7 @@ import { FinalCta } from "@/components/sections/Landing";
 export const metadata: Metadata = {
   title: { absolute: "Viking Repair Across Los Angeles & Southern California | Onyx" },
   description:
-    `Factory trained Viking repair across ${CITIES.length} cities in Los Angeles and Southern California. Flat $95 diagnostic, genuine parts. Call (877) 778-0227.`,
+    `Factory trained Viking repair across ${CITIES.length} cities in Los Angeles and Southern California. Flat $95 diagnostic, genuine parts. Call (747) 777-5883.`,
   alternates: { canonical: "/cities-we-serve" },
   openGraph: {
     type: "website",

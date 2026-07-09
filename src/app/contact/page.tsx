@@ -13,7 +13,7 @@ const headerShadow = "0 1px 14px rgba(0,0,0,0.55), 0 1px 3px rgba(0,0,0,0.45)";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Call (877) 778-0227 for same day Viking service in Los Angeles & Southern California, or request a callback online.",
+    "Call (747) 777-5883 for same day Viking service in Los Angeles & Southern California, or request a callback online.",
   alternates: { canonical: "/contact" },
 };
 

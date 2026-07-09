@@ -25,7 +25,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained Viking specialists across Los Angeles. Same day and next day service, genuine OEM parts, and a 3 year warranty.",
     description:
-      "Factory trained Viking refrigerator repair across Los Angeles. Same day and next day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Factory trained Viking refrigerator repair across Los Angeles. Same day and next day service, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Viking refrigerator faults we fix",
     symptoms: [
       { t: "Refrigerator running warm", d: "Temperature drift and warm zones traced to the true fault, not a guess, usually on the first visit." },
@@ -40,7 +40,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained on Viking freezers and wine storage. Same day and next day visits, genuine OEM parts, and a 3 year warranty.",
     description:
-      "Viking freezer and wine storage repair in LA. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Viking freezer and wine storage repair in LA. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Freezer and wine storage faults we fix",
     symptoms: [
       { t: "Freezer not freezing", d: "Soft ice and a warming compartment restored to a steady, factory set temperature." },
@@ -56,7 +56,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained Viking specialists. Most ice maker faults diagnosed and repaired in a single visit, with genuine OEM parts on the van.",
     description:
-      "Viking ice maker repair in Los Angeles. Factory trained technicians, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Viking ice maker repair in Los Angeles. Factory trained technicians, same day service, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Ice maker faults we fix",
     symptoms: [
       { t: "No ice at all", d: "A dead ice maker brought back to full production, in a single visit wherever possible." },
@@ -72,7 +72,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained Viking specialists. We find the source of the leak, seal it with genuine OEM parts, and protect your floors throughout.",
     description:
-      "Viking refrigerator leak repair in LA. Factory trained, same day service, floors protected, genuine OEM parts. Call (877) 778-0227.",
+      "Viking refrigerator leak repair in LA. Factory trained, same day service, floors protected, genuine OEM parts. Call (747) 777-5883.",
     symptomsHeading: "Leaks and water faults we fix",
     symptoms: [
       { t: "Water on the floor", d: "Pooling beneath the unit traced to a clogged drain or a split line and stopped." },
@@ -88,7 +88,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained on the sealed system. Compressors, gaskets, thermostats, and evaporators restored to factory spec with genuine OEM parts.",
     description:
-      "Viking compressor, seal, and sealed system repair in LA. Factory trained, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Viking compressor, seal, and sealed system repair in LA. Factory trained, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Components we repair and replace",
     symptoms: [
       { t: "Compressor and sealed system", d: "Sealed system and compressor faults diagnosed and repaired to factory spec." },
@@ -104,7 +104,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained Viking specialists, often at your door the same day. We find why it stopped cooling and restore a steady temperature.",
     description:
-      "Viking refrigerator not cooling? Factory trained LA repair, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Viking refrigerator not cooling? Factory trained LA repair, same day service, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Cooling problems we fix",
     symptoms: [
       { t: "Fridge warm, food spoiling", d: "A warming cabinet diagnosed quickly, before a dinner or a delivery is lost." },
@@ -120,7 +120,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained Viking specialists across Los Angeles. Same day and next day service, genuine OEM parts, and a 3 year warranty.",
     description:
-      "Viking range and cooktop repair in Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Viking range and cooktop repair in Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Viking range and cooktop faults we fix",
     symptoms: [
       { t: "Burner will not light", d: "Clicking, sparking, and dead burners on dual stacked sealed burners, corrected." },
@@ -136,7 +136,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "Factory trained on Viking ovens and wall ovens. Same day and next day service, genuine OEM parts, and a 3 year warranty.",
     description:
-      "Viking oven and wall oven repair in Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Viking oven and wall oven repair in Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Viking oven faults we fix",
     symptoms: [
       { t: "Oven not heating", d: "Failed igniters and bake elements restored for consistent, calibrated heat." },
@@ -152,7 +152,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
     subhead:
       "One trusted name for every Viking appliance in the home. Factory trained, same day service, genuine OEM parts, 3 year warranty.",
     description:
-      "Viking appliance repair across Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (877) 778-0227.",
+      "Viking appliance repair across Los Angeles. Factory trained, same day service, genuine OEM parts, 3 year warranty. Call (747) 777-5883.",
     symptomsHeading: "Every Viking appliance",
     symptoms: [
       { t: "Any Viking fault", d: "Refrigeration, wine storage, ranges, and ovens, all under one trusted name." },

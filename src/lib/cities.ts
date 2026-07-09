@@ -38,7 +38,7 @@ export function cityMetadata(city: City): Metadata {
   const title = `Viking Repair in ${city.name}, CA | Onyx`;
   const description =
     copy?.metaDescription ??
-    `Factory trained Viking repair in ${city.name}. Flat $95 diagnostic, genuine parts. Call (877) 778-0227.`;
+    `Factory trained Viking repair in ${city.name}. Flat $95 diagnostic, genuine parts. Call (747) 777-5883.`;
   const url = `${SITE_URL}${cityPath(city.slug)}`;
   const image = `${SITE_URL}/images/cities/${city.slug}-hero.jpg`;
   return {

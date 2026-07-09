@@ -20,7 +20,7 @@ const inter = Inter({
 const TITLE = `${SITE.name} · White Glove Viking Repair`;
 // Kept under 155 characters for clean SERP rendering.
 const DESCRIPTION =
-  "Factory trained Viking repair across Los Angeles & Southern California. Same day service, genuine parts, 3 year warranty. Call (877) 778-0227.";
+  "Factory trained Viking repair across Los Angeles & Southern California. Same day service, genuine parts, 3 year warranty. Call (747) 777-5883.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

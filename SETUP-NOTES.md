@@ -17,7 +17,7 @@ What changed automatically, and what you still need to do before launch.
   next.config redirects all updated to match.
 - **Domain / email:** `onyxsubzeroservice.com` → `onyxvikingservice.com`,
   `contact@onyxvikingservice.com`. Canonical origin = `https://www.onyxvikingservice.com`.
-- **Phone:** updated everywhere to **(877) 778‑0227** (`+18777780227`).
+- **Phone:** updated everywhere to **(747) 777-5883** (`+17477775883`).
 - **Disclaimer:** now "not affiliated with Viking Range, LLC".
 - **Code identifiers:** the `SUBZERO` / `WOLF` brand constants are renamed
   `REFRIGERATION` / `COOKING`.

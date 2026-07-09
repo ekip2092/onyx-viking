@@ -12,8 +12,8 @@ export type CityGroup = { region: string; cities: string[] };
 
 export const SITE = {
   name: "Onyx Viking Services",
-  phoneDisplay: "(877) 778-0227",
-  phoneTel: "+18777780227",
+  phoneDisplay: "(747) 777-5883",
+  phoneTel: "+17477775883",
   email: "contact@onyxvikingservice.com",
   hours: "Open daily, 7am to 7pm",
   region: "Los Angeles & Southern California",
