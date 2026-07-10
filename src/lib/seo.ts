@@ -4,7 +4,7 @@
    intentionally NOT emitted into live JSON-LD until replaced
    with real data (see isReal), so the structured data always
    passes Google's Rich Results test with zero invalid fields.
-   Do NOT invent a license #, rating, geo, or tracking ID here.
+   Do NOT invent a rating, geo, or tracking ID here.
    ============================================================ */
 import { SITE, CITY_GROUPS } from "@/lib/site";
 
@@ -29,7 +29,6 @@ export const BUSINESS = {
   latitude: "PLACEHOLDER_LAT", // TODO(owner)
   longitude: "PLACEHOLDER_LNG", // TODO(owner)
   priceRange: "PLACEHOLDER_PRICE_RANGE", // TODO(owner): e.g. "$$$"
-  cslbLicense: "PLACEHOLDER_CSLB_LICENSE", // TODO(owner): CSLB license number
   ratingValue: "PLACEHOLDER_RATING", // TODO(owner): real Google rating, e.g. "4.9"
   reviewCount: "PLACEHOLDER_REVIEW_COUNT", // TODO(owner): real Google review count
   googleProfileUrl: "PLACEHOLDER_GBP_URL", // TODO(owner): Google Business Profile review URL
@@ -91,14 +90,6 @@ export function localBusinessJsonLd(): Record<string, unknown> {
     };
   }
   if (isReal(BUSINESS.priceRange)) graph.priceRange = BUSINESS.priceRange;
-  if (isReal(BUSINESS.cslbLicense)) {
-    graph.hasCredential = {
-      "@type": "EducationalOccupationalCredential",
-      credentialCategory: "license",
-      name: "CSLB Contractor License",
-      identifier: BUSINESS.cslbLicense,
-    };
-  }
   if (BUSINESS.sameAs.length) graph.sameAs = BUSINESS.sameAs;
   // aggregateRating intentionally omitted until real rating + count are supplied.
   if (isReal(BUSINESS.ratingValue) && isReal(BUSINESS.reviewCount)) {

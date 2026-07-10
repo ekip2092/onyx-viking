@@ -141,6 +141,20 @@ export function HomeHero({
             Book a diagnostic
           </Button>
         </div>
+        <p
+          style={{
+            margin: 0,
+            marginTop: "var(--space-xxs)",
+            color: "rgba(255,255,255,0.92)",
+            fontSize: "var(--type-caption-uppercase-size)",
+            fontWeight: 600,
+            letterSpacing: "var(--type-caption-uppercase-tracking)",
+            textTransform: "uppercase",
+            textShadow: heroShadow,
+          }}
+        >
+          One Quote. One Price. Guaranteed Repair. No Supplemental Estimates.
+        </p>
         <div style={{ display: "flex", gap: "var(--space-lg)", flexWrap: "wrap", marginTop: "var(--space-md)" }}>
           {trustItems.map(({ label, Icon }, i) => (
             <span

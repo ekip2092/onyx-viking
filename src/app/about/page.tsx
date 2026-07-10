@@ -31,7 +31,7 @@ const STEPS = [
   { n: "01", t: "Diagnose at the source", d: "A flat fee diagnostic visit. We find the true fault, not the symptom, and explain it plainly." },
   { n: "02", t: "Genuine parts only", d: "Viking OEM components, sourced direct. No aftermarket substitutes, ever." },
   { n: "03", t: "Restore to factory spec", d: "Calibrated, sealed and tested. Floors and cabinetry protected throughout the work." },
-  { n: "04", t: "Guarantee it", d: "Three years, manufacturer backed, on parts and labour. One name to call if anything is ever not right." },
+  { n: "04", t: "Guarantee it", d: "Three years, manufacturer backed, on parts and labor. One name to call if anything is ever not right." },
 ];
 
 function AboutHeader() {

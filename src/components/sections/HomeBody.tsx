@@ -1,7 +1,10 @@
 import Link from "next/link";
-import { SITE, REFRIGERATION, COOKING, REVIEWS, CITY_GROUPS } from "@/lib/site";
+import { SITE, FAQS, REFRIGERATION, COOKING, REVIEWS, CITY_GROUPS } from "@/lib/site";
+import { faqPageJsonLd } from "@/lib/seo";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { AssuranceBand } from "@/components/sections/AssuranceBand";
 import { TrustBadges, HowWeWork, Specialists, FinalCta } from "@/components/sections/Landing";
+import { OneQuotePromise } from "@/components/sections/OneQuotePromise";
 import { Faq } from "@/components/sections/Faq";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -206,6 +209,7 @@ function CitiesTeaser() {
 export function HomeBody() {
   return (
     <>
+      <OneQuotePromise />
       <section
         style={{
           background: "var(--color-canvas)",
@@ -241,6 +245,7 @@ export function HomeBody() {
       <AssuranceBand eyebrow="The Onyx standard" title="Service worthy of the kitchen it stands in." tone="light" />
       <ReviewsBand />
       <Faq />
+      <JsonLd data={faqPageJsonLd(FAQS)} />
       <CitiesTeaser />
       <FinalCta />
     </>

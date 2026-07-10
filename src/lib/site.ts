@@ -161,10 +161,18 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Is the repair guaranteed?",
-    a: "Yes. Three years, manufacturer backed, on parts and labour. One name to call if anything is ever not right.",
+    a: "Yes. Three years, manufacturer backed, on parts and labor. One name to call if anything is ever not right.",
   },
   {
     q: "Will you protect my home?",
     a: "Floors, cabinetry, and stonework are draped and protected before a single panel comes off, and the kitchen is left exactly as we found it.",
+  },
+  {
+    q: "What if the technician opens my Viking range or refrigerator and finds more damage?",
+    a: "Then we fix that too, at the same price. Your quote is the cost to solve the problem you called about — not a running tally of parts and hours. If the job turns out harder than it looked, that cost is ours to carry. The number we put in writing is the number on your invoice.",
+  },
+  {
+    q: "What does the 3-year warranty cover?",
+    a: "Parts and labor, on the repair we performed. If the problem we fixed comes back within three years, we return and make it right at no charge. The warranty is written on your invoice — not a verbal promise.",
   },
 ];

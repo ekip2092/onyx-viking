@@ -199,7 +199,7 @@ export function CityPage({ city, copy }: { city: City; copy: CityCopy }) {
           <div style={{ maxWidth: "48ch" }}>
             <Eyebrow style={{ color: "rgba(255,255,255,0.82)" }}>The Onyx guarantee</Eyebrow>
             <h2 className="d-xl" style={{ marginTop: "8px" }}>
-              Three years, manufacturer backed, on parts and labour.
+              Three years, manufacturer backed, on parts and labor.
             </h2>
             <p className="lede" style={{ color: "rgba(255,255,255,0.92)", marginTop: "var(--space-sm)" }}>
               A flat ${SITE.diagnosticFee} diagnostic, credited in full toward your repair, and 24 years on luxury appliances behind every visit.

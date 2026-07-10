@@ -183,10 +183,24 @@ img { display: block; max-width: 100%; }
   left: 0; right: 0; bottom: 0;
   z-index: 60;
   display: none;
+  flex-direction: column;
   gap: 1px;
   background: var(--color-hairline);
   border-top: 1px solid var(--color-hairline);
 }
+.cb-promise {
+  background: var(--color-canvas);
+  color: var(--color-body);
+  font-size: 10px;
+  font-weight: var(--type-caption-uppercase-weight);
+  letter-spacing: var(--type-caption-uppercase-tracking);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 6px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.cb-row { display: flex; gap: 1px; }
 .callbar a {
   flex: 1;
   display: flex;
@@ -204,7 +218,7 @@ img { display: block; max-width: 100%; }
 .callbar .cb-book { background: var(--color-canvas-elevated); color: var(--color-ink); }
 @media (max-width: 760px) {
   .callbar { display: flex; }
-  body { padding-bottom: 56px; }
+  body { padding-bottom: 82px; } /* 56px cells + 24px promise strip + gap + border */
 }
 
 /* ---- Nav responsive ---- */
@@ -370,8 +384,8 @@ img { display: block; max-width: 100%; }
   border: 1px solid var(--color-hairline);
 }
 @media (max-width: 760px) {
-  /* Sit above the sticky mobile call bar (56px). */
-  .cookie-banner { left: 12px; right: 12px; bottom: calc(56px + 12px); max-width: none; }
+  /* Sit above the sticky mobile call bar (56px cells + promise strip). */
+  .cookie-banner { left: 12px; right: 12px; bottom: calc(82px + 12px); max-width: none; }
 }
 
 /* ---- PPC landing pages ---- */
