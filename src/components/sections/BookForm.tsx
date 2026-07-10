@@ -73,7 +73,7 @@ export function BookForm() {
 
   // Booking reference, shown on the confirmation screen and passed to Stripe as
   // client_reference_id so the payment can be matched back to the appointment.
-  const [ref, setRef] = useState(() => "CR-" + Math.floor(100000 + Math.random() * 899999));
+  const [ref, setRef] = useState(() => "CR" + Math.floor(100000 + Math.random() * 899999));
 
   // When the customer returns from Stripe after paying (the Payment Link's
   // post-payment redirect should point at /book?status=paid), restore their
@@ -151,7 +151,11 @@ export function BookForm() {
             </h2>
             <p className="body" style={{ fontSize: "15px" }}>
               Thank you, {f.name || "there"}. Your ${SITE.diagnosticFee} diagnostic is confirmed for{" "}
-              <strong style={{ color: "var(--color-ink)" }}>{f.date || "your selected date"}</strong>, {f.window}. A
+              <strong style={{ color: "var(--color-ink)" }}>
+                {f.date
+                  ? new Date(f.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })
+                  : "your selected date"}
+              </strong>, {f.window}. A
               coordinator will call {f.phone || "you"} shortly to confirm the technician and arrival.
             </p>
             <div
@@ -258,7 +262,7 @@ export function BookForm() {
             <legend style={legendStyle}>3 · Your details</legend>
             <div className="grid cols-2" style={{ gap: "var(--space-md)" }}>
               <Input label="Full name" value={f.name} onChange={set("name")} placeholder="Jane Calloway" required />
-              <Input label="Phone" type="tel" value={f.phone} onChange={set("phone")} placeholder="(310) 555-0142" required />
+              <Input label="Phone" type="tel" value={f.phone} onChange={set("phone")} placeholder="(310) 555 0142" required />
             </div>
             <Input label="Email" type="email" value={f.email} onChange={set("email")} placeholder="you@example.com" required />
           </fieldset>

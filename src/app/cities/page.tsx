@@ -208,7 +208,7 @@ export default function CitiesPage() {
   return (
     <Shell active="cities">
       <CitiesHeader />
-      <PhotoLede image="/appliances/viking_fridge.jpg" alt="A built-in Viking refrigerator in a luxury kitchen" eyebrow="Across the region">
+      <PhotoLede image="/appliances/viking_fridge.jpg" alt="A Viking refrigerator built into a luxury kitchen" eyebrow="Across the region">
         From the estates of Bel Air to the coast at Malibu, a factory trained Onyx technician is rarely more than a
         short drive away. Same day and next day visits across the Westside, the Valley, and beyond.
       </PhotoLede>

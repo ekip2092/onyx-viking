@@ -65,7 +65,7 @@ export const ASSURANCES: Problem[] = [
 
 export const REFRIGERATION: Brand = {
   label: "Refrigeration",
-  line: "Refrigerators · Freezers · Built-Ins · Wine Storage",
+  line: "Refrigerators · Freezers · Integrated Units · Wine Storage",
   problems: [
     { t: "Refrigerator not cooling", d: "Temperature drift, warm zones, or food spoiling early. Usually a failing thermostat, sealed system, or compressor." },
     { t: "Freezer not freezing", d: "Soft ice cream and frost on the walls point to a defrost system or evaporator fan that has failed." },
@@ -125,7 +125,7 @@ export const WARNING_SIGNS: Problem[] = [
 export const APPLIANCES = [
   "Viking refrigerator",
   "Viking freezer",
-  "Viking built-in fridge/freezer",
+  "Viking integrated fridge/freezer",
   "Viking range",
   "Viking stove",
   "Viking oven",
@@ -169,10 +169,10 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "What if the technician opens my Viking range or refrigerator and finds more damage?",
-    a: "Then we fix that too, at the same price. Your quote is the cost to solve the problem you called about — not a running tally of parts and hours. If the job turns out harder than it looked, that cost is ours to carry. The number we put in writing is the number on your invoice.",
+    a: "Then we fix that too, at the same price. Your quote is the cost to solve the problem you called about, not a running tally of parts and hours. If the job turns out harder than it looked, that cost is ours to carry. The number we put in writing is the number on your invoice.",
   },
   {
-    q: "What does the 3-year warranty cover?",
-    a: "Parts and labor, on the repair we performed. If the problem we fixed comes back within three years, we return and make it right at no charge. The warranty is written on your invoice — not a verbal promise.",
+    q: "What does the three year warranty cover?",
+    a: "Parts and labor, on the repair we performed. If the problem we fixed comes back within three years, we return and make it right at no charge. The warranty is written right on your invoice.",
   },
 ];

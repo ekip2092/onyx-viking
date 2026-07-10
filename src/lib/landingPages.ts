@@ -84,7 +84,7 @@ export const LANDING_PAGES: Record<string, LandingPage> = {
   "viking-refrigerator-parts-repair-la": {
     slug: "viking-refrigerator-parts-repair-la",
     title: "Viking Compressor, Seal & Component Repair LA | Onyx",
-    h1: "Viking Refrigerator Repair — Compressor, Seals & More",
+    h1: "Viking Refrigerator Repair for Compressors, Seals & More",
     subhead:
       "Factory trained on the sealed system. Compressors, gaskets, thermostats, and evaporators restored to factory spec with genuine OEM parts.",
     description:

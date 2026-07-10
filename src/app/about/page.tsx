@@ -160,7 +160,7 @@ function ServiceImage() {
       <img
         className="wrap"
         src="/appliances/repair_fridge_hands.jpg"
-        alt="An Onyx technician repairing a built-in appliance at the board level"
+        alt="An Onyx technician repairing an integrated appliance at the board level"
         loading="lazy"
         style={{
           display: "block",

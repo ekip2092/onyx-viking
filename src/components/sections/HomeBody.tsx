@@ -55,7 +55,7 @@ function ScopeBand() {
             One brand. Total mastery.
           </h2>
           <p className="lede" style={{ marginTop: "var(--space-sm)", maxWidth: "44ch" }}>
-            Viking, restored to flawless.
+            Viking, restored to flawless condition.
           </p>
         </Reveal>
         <Reveal className="grid cols-2" stagger={0.1} style={{ marginTop: "var(--space-lg)", gap: "var(--space-md)" }}>
@@ -224,14 +224,14 @@ export function HomeBody() {
           <PhotoSlot
             src="/onyx-kitchen.jpg"
             webpSrc="/onyx-kitchen.webp"
-            alt="A luxury kitchen with a built-in Viking refrigerator and a Viking range"
+            alt="A luxury kitchen with a Viking refrigerator built into the cabinetry and a Viking range"
             aspectRatio="16 / 11"
             style={{ border: "1px solid var(--color-hairline)" }}
           />
           <Reveal style={{ display: "flex", flexDirection: "column", gap: "var(--space-sm)" }}>
             <Eyebrow>The Onyx difference</Eyebrow>
             <p className="lede" style={{ maxWidth: "44ch" }}>
-              We treat an $18,000 refrigerator the way a marque treats a Bentley. Factory trained, genuine parts,
+              We treat an $18,000 refrigerator the way a Bentley specialist treats a Bentley. Factory trained, genuine parts,
               and the discretion the finest homes in {SITE.region} expect.
             </p>
           </Reveal>

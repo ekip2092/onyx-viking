@@ -105,7 +105,7 @@ export function Specialists() {
         </h2>
         <p className="lede" style={{ marginTop: "var(--space-md)" }}>
           Certified, background checked technicians who work on Viking appliances and nothing else. No call centres, no
-          rotating subcontractors, no guesswork. The depth that only comes from doing one thing, exceptionally.
+          rotating subcontractors, no guesswork. That kind of depth comes from spending every working day on the same machines.
         </p>
         <div style={{ marginTop: "var(--space-lg)", display: "flex", flexWrap: "wrap", gap: "10px" }}>
           {SPECIALIST_TAGS.map((t, i) => (

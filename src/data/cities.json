@@ -8,20 +8,20 @@
       "Upper Bel Air",
       "Lower Bel Air",
       "Stone Canyon",
-      "Bel-Air Crest",
+      "Bel Air Crest",
       "Roscomare Valley"
     ],
     "landmarks": [
-      "Bel-Air Country Club",
-      "Hotel Bel-Air",
+      "Bel Air Country Club",
+      "Hotel Bel Air",
       "Stone Canyon Reservoir",
       "Bel Air Road / Bellagio Road"
     ],
     "zips": [
       "90077"
     ],
-    "localAngle": "Bel Air's gated estates and architect-designed canyon homes are routinely outfitted with built-in Viking refrigeration and Viking ranges as standard luxury-kitchen fixtures, so discreet, by-appointment in-home repair that respects security gates and private staff is essential here. The neighborhood's sprawling hillside compounds along Stone Canyon and Bellagio often house multiple Viking units across main kitchens, butler's pantries, and wine rooms.",
-    "faqHook": "\"Do you provide discreet service for gated Bel Air estates?\" — Answer angle: yes, technicians arrive in unmarked or low-profile vehicles, coordinate entry through gate codes, estate managers, or household staff, and offer flexible private appointment windows tailored to high-privacy homes along Bel Air Road and Stone Canyon.",
+    "localAngle": "Bel Air's gated estates and canyon homes designed by architects are routinely outfitted with Viking refrigeration built into the cabinetry and Viking ranges as standard fixtures of the luxury kitchen, so discreet repair visits, scheduled by appointment and respectful of security gates and private staff, are essential here. The neighborhood's sprawling hillside compounds along Stone Canyon and Bellagio often house multiple Viking units across main kitchens, butler's pantries, and wine rooms.",
+    "faqHook": "\"Do you provide discreet service for gated Bel Air estates?\" Yes. Technicians arrive in unmarked or understated vehicles, coordinate entry through gate codes, estate managers, or household staff, and offer flexible private appointment windows tailored to homes along Bel Air Road and Stone Canyon where privacy matters most.",
     "geo": {
       "lat": 34.0938,
       "lng": -118.4596
@@ -50,8 +50,8 @@
       "90211",
       "90212"
     ],
-    "localAngle": "Behind the gated estates of Trousdale and the palm-lined Flats, Beverly Hills kitchens are showpiece spaces where built-in Viking columns and Viking ranges are part of the architecture itself, not interchangeable boxes. Owners and their estate managers expect white-glove, by-appointment service that protects custom millwork and stone surfaces while restoring factory-grade performance.",
-    "faqHook": "Q: Do you offer discreet, appointment-only Viking repair for Beverly Hills estates and their property managers? A: Yes — emphasize scheduled windows, professional uniformed technicians, respect for privacy and security gates in areas like Trousdale and the Flats, and care taken with custom cabinetry and panel-ready integrated units.",
+    "localAngle": "Behind the gated estates of Trousdale and the Flats with their rows of palms, Beverly Hills kitchens are showpiece spaces where Viking columns built into the cabinetry and Viking ranges are part of the architecture itself, not interchangeable boxes. Owners and their estate managers expect white glove service by appointment that protects custom millwork and stone surfaces while restoring performance to factory standards.",
+    "faqHook": "Q: Do you offer discreet Viking repair by appointment for Beverly Hills estates and their property managers? A: Yes. We work in scheduled windows, send professional uniformed technicians, respect privacy and security gates in areas like Trousdale and the Flats, and take care with custom cabinetry and fully integrated units designed to take cabinet panels.",
     "geo": {
       "lat": 34.07362,
       "lng": -118.40036
@@ -79,8 +79,8 @@
       "90049",
       "90272"
     ],
-    "localAngle": "Brentwood's canyon estates and gated Brentwood Park compounds pair architect-designed kitchens with full Viking suites, where homeowners expect discreet, on-time specialists who treat a five-figure built-in column the way their household manager would. Hillside microclimates along Mandeville and Sullivan Canyons also push compressors and condensers harder, making proactive Viking servicing a year-round priority rather than a one-off repair.",
-    "faqHook": "\"Do you service the gated estates in Brentwood Park and the Mandeville Canyon hills?\" — Yes; emphasize familiarity with private-drive access, household-staff coordination, and same-day appointments scheduled around the 90049 canyon corridors.",
+    "localAngle": "Brentwood's canyon estates and gated Brentwood Park compounds pair kitchens designed by architects with full Viking suites, where homeowners expect discreet, punctual specialists who treat a column refrigerator worth five figures the way their household manager would. Hillside microclimates along Mandeville and Sullivan Canyons also push compressors and condensers harder, making proactive Viking servicing a priority in every season rather than a repair you schedule once.",
+    "faqHook": "\"Do you service the gated estates in Brentwood Park and the Mandeville Canyon hills?\" Yes. We know the private drives, coordinate with household staff, and offer same day appointments scheduled around the 90049 canyon corridors.",
     "geo": {
       "lat": 34.052,
       "lng": -118.4714
@@ -108,8 +108,8 @@
       "90067",
       "90064"
     ],
-    "localAngle": "Century City is a dense vertical enclave of high-rise luxury condominiums and the gleaming towers along Avenue of the Stars, where built-in Viking refrigeration and Viking ranges are standard fixtures in chef-grade condo kitchens. Servicing these high-floor residences demands technicians comfortable navigating building loading docks, freight elevators, and HOA access protocols to reach panel-ready, fully integrated appliances.",
-    "faqHook": "Q: Do you service Viking appliances in Century City's high-rise condo towers? A: Yes — we coordinate with building management and concierge desks along Avenue of the Stars and the Wilshire Corridor for freight-elevator access and scheduled service windows, and we handle the panel-ready, fully integrated Viking units common in luxury condo kitchens.",
+    "localAngle": "Century City is a dense vertical enclave of luxury condominium towers gleaming along Avenue of the Stars, where integrated Viking refrigeration and Viking ranges are standard fixtures in condo kitchens fitted out for serious cooking. Servicing these residences high above the street demands technicians comfortable navigating building loading docks, freight elevators, and HOA access protocols to reach fully integrated appliances designed to take cabinet panels.",
+    "faqHook": "Q: Do you service Viking appliances in Century City's condo towers? A: Yes. We coordinate with building management and concierge desks along Avenue of the Stars and the Wilshire Corridor for freight elevator access and scheduled service windows, and we handle the fully integrated Viking units, designed to take cabinet panels, that are common in luxury condo kitchens.",
     "geo": {
       "lat": 34.0556,
       "lng": -118.4176
@@ -139,8 +139,8 @@
       "90230",
       "90232"
     ],
-    "localAngle": "Once the \"Heart of Screenland,\" Culver City has become a magnet for media and tech money (Sony, Amazon Studios, Apple, HBO), filling its remodeled Spanish Revival bungalows and hillside Culver Crest moderns with chef-grade Viking kitchens that owners expect to perform flawlessly. Many of these built-ins sit in homes renovated during the studio-driven boom, so factory-trained service that protects the original cabinetry millwork matters as much as the repair itself.",
-    "faqHook": "Q: Do you service Viking units in Culver City's older Carlson Park and Sunkist Park homes where the appliance is built into custom cabinetry? A: Yes — we specialize in extracting and reinstalling panel-ready built-ins without damaging surrounding millwork, which is common in these 1920s-40s remodeled bungalows.",
+    "localAngle": "Once the \"Heart of Screenland,\" Culver City has become a magnet for media and tech money (Sony, Amazon Studios, Apple, HBO), filling its remodeled Spanish Revival bungalows and hillside Culver Crest moderns with Viking kitchens worthy of a working chef, and owners expect them to perform flawlessly. Many of these units are built into homes renovated during the boom the studios brought, so factory trained service that protects the original cabinetry millwork matters as much as the repair itself.",
+    "faqHook": "Q: Do you service Viking units in Culver City's older Carlson Park and Sunkist Park homes where the appliance is built into custom cabinetry? A: Yes. We specialize in extracting and reinstalling integrated units designed for cabinet panels without damaging surrounding millwork, which is common in these remodeled bungalows from the 1920s through the 1940s.",
     "geo": {
       "lat": 34.02112,
       "lng": -118.39647
@@ -171,8 +171,8 @@
       "90038",
       "90046"
     ],
-    "localAngle": "Above the Walk of Fame, the celebrity-owned estates and restored 1920s Spanish-style homes terraced into the Hollywood Hills and Whitley Heights pair Viking suites with entertainer-grade kitchens built for hosting. Hillside humidity swings and chef-caliber daily use make factory-correct service on these built-in units a must for an industry crowd that expects discretion and white-glove care.",
-    "faqHook": "Q: Can you service Viking units in gated Hollywood Hills and Beachwood Canyon homes with limited street access? A: Yes — we coordinate scheduled, discreet visits for hillside and gated estates, navigating narrow canyon roads and private drives, and carry common Viking/Viking parts to resolve most repairs in a single trip.",
+    "localAngle": "Above the Walk of Fame, estates owned by celebrities and restored 1920s homes in the Spanish style, terraced into the Hollywood Hills and Whitley Heights, pair Viking suites with kitchens built for serious hosting. Hillside humidity swings and daily use worthy of a chef make service to factory specification on these integrated units a must for an industry crowd that expects discretion and white glove care.",
+    "faqHook": "Q: Can you service Viking units in gated Hollywood Hills and Beachwood Canyon homes with limited street access? A: Yes. We coordinate scheduled, discreet visits for hillside and gated estates, navigate the narrow canyon roads and private drives, and carry common Viking parts to resolve most repairs in a single trip.",
     "geo": {
       "lat": 34.0928,
       "lng": -118.3287
@@ -199,8 +199,8 @@
       "90027",
       "90039"
     ],
-    "localAngle": "Los Feliz is defined by its architecturally significant homes — Frank Lloyd Wright's Hollyhock House, Spanish Revival estates in Laughlin Park, and mid-century moderns in the hills — where original and lovingly restored kitchens often pair built-in Viking refrigeration and Viking ranges with period cabinetry, so repairs must preserve both the appliance and the historic millwork around it.",
-    "faqHook": "Q: Can you service a built-in Viking in an older Los Feliz hillside home without damaging custom or vintage cabinetry? A: Yes — our technicians extract and reinstall flush built-in units carefully around tight historic cabinet enclosures common in Los Feliz Hills and Laughlin Park, and carry common Viking/Viking parts to limit repeat visits up the narrow streets.",
+    "localAngle": "Los Feliz is defined by its architecturally significant homes, from Frank Lloyd Wright's Hollyhock House to the Spanish Revival estates of Laughlin Park and the midcentury moderns in the hills, where original and lovingly restored kitchens often pair integrated Viking refrigeration and Viking ranges with period cabinetry, so repairs must preserve both the appliance and the historic millwork around it.",
+    "faqHook": "Q: Can you service an integrated Viking in an older Los Feliz hillside home without damaging custom or vintage cabinetry? A: Yes. Our technicians carefully work units that sit flush in tight historic cabinet enclosures, common in Los Feliz Hills and Laughlin Park, out and back in again, and carry common Viking parts to limit repeat visits up the narrow streets.",
     "geo": {
       "lat": 34.1067,
       "lng": -118.2876
@@ -229,8 +229,8 @@
       "90264",
       "90265"
     ],
-    "localAngle": "Malibu's oceanfront estates and Point Dume architect-designed homes pair professional kitchens with serious entertaining, yet the salt air and marine humidity off PCH are uniquely punishing on Viking condenser coils and Viking stainless finishes — making specialized coastal-climate service essential rather than optional.",
-    "faqHook": "\"Do you service gated beachfront homes and the Malibu Colony?\" Yes — answer should note experience navigating private-community gate access, narrow PCH-adjacent driveways, and scheduling around coastal-property security/concierge requirements common to Malibu estates.",
+    "localAngle": "Malibu's oceanfront estates and the Point Dume homes designed by architects pair professional kitchens with serious entertaining, yet the salt air and marine humidity off PCH are uniquely punishing on Viking condenser coils and Viking stainless finishes, which makes service tuned to the coastal climate essential rather than optional.",
+    "faqHook": "\"Do you service gated beachfront homes and the Malibu Colony?\" Yes. We know our way through private community gates and the narrow driveways off PCH, and we schedule around the security and concierge requirements common to Malibu's coastal estates.",
     "geo": {
       "lat": 34.0358,
       "lng": -118.6895
@@ -258,8 +258,8 @@
     "zips": [
       "90292"
     ],
-    "localAngle": "Marina del Rey is built around the largest man-made small-craft harbor in North America, where waterfront luxury condos, yacht-side penthouses and high-rise towers along Admiralty Way pair professional chefs' kitchens with Viking refrigeration and Viking ranges. The salt air and constant marine humidity off the basin are tough on compressor seals and stainless finishes, so owners here need technicians who understand how a harborfront climate accelerates wear on premium appliances.",
-    "faqHook": "Q: Do you service Viking units in Marina del Rey's high-rise condos and gated waterfront communities like Marina City Club or Mariners Village? A: Yes — we coordinate with building concierge and loading-dock access, navigate HOA elevator and service-entrance rules, and handle the tight galley layouts common in harborfront towers and Peninsula condos.",
+    "localAngle": "Marina del Rey is built around the largest manmade harbor for small craft in North America, where waterfront luxury condos, penthouses overlooking the yachts, and towers along Admiralty Way pair professional chefs' kitchens with Viking refrigeration and Viking ranges. The salt air and constant marine humidity off the basin are tough on compressor seals and stainless finishes, so owners here need technicians who understand how a harborfront climate accelerates wear on premium appliances.",
+    "faqHook": "Q: Do you service Viking units in Marina del Rey's condo towers and gated waterfront communities like Marina City Club or Mariners Village? A: Yes. We coordinate with building concierge desks for loading dock access, navigate HOA elevator and service entrance rules, and handle the tight galley layouts common in harborfront towers and Peninsula condos.",
     "geo": {
       "lat": 33.9803,
       "lng": -118.4517
@@ -281,13 +281,13 @@
       "Palisades Village (Caruso)",
       "Sunset Boulevard",
       "Will Rogers State Historic Park",
-      "Self-Realization Fellowship Lake Shrine"
+      "Self Realization Fellowship Lake Shrine"
     ],
     "zips": [
       "90272"
     ],
-    "localAngle": "Perched on the bluffs between the Santa Monica Mountains and the Pacific, Pacific Palisades pairs gated Riviera estates and mid-century Case Study homes with serious culinary kitchens, where salt air and canyon humidity are hard on the seals and compressors of built-in Viking refrigeration and Viking ranges. Many Palisades rebuilds after the 2025 wildfire are being fitted with new luxury appliance suites that deserve factory-level care from day one.",
-    "faqHook": "Q: Do you service the gated estates of the Riviera and homes being rebuilt after the Palisades Fire? A: Yes — we coordinate scheduled, gate-code access for Riviera and Huntington Palisades properties and work directly with homeowners and GCs commissioning new Viking installs in post-fire rebuilds.",
+    "localAngle": "Perched on the bluffs between the Santa Monica Mountains and the Pacific, Pacific Palisades pairs gated Riviera estates and midcentury Case Study homes with serious culinary kitchens, where salt air and canyon humidity are hard on the seals and compressors of integrated Viking refrigeration and Viking ranges. Many Palisades rebuilds after the 2025 wildfire are being fitted with new luxury appliance suites that deserve care to factory standards from day one.",
+    "faqHook": "Q: Do you service the gated estates of the Riviera and homes being rebuilt after the Palisades Fire? A: Yes. We arrange gate codes and scheduled access for Riviera and Huntington Palisades properties and work directly with homeowners and GCs commissioning new Viking installs in rebuilds after the fire.",
     "geo": {
       "lat": 34.0479,
       "lng": -118.5265
@@ -313,8 +313,8 @@
     "zips": [
       "90293"
     ],
-    "localAngle": "Playa del Rey's hillside homes and bluff-top properties overlooking the Ballona Wetlands and Santa Monica Bay pair ocean views with constant marine-layer salt air, which is exactly the corrosive coastal environment that demands attentive, factory-trained care for Viking sealed systems and Viking burners before salt humidity shortens their lifespan.",
-    "faqHook": "Q: Does the salt air near Dockweiler Beach and the Ballona Wetlands affect my Viking appliances? A: Yes — Playa del Rey's coastal humidity accelerates condenser-coil corrosion and gasket wear, so we emphasize preventive coil cleaning and stainless protection on every service call here.",
+    "localAngle": "Playa del Rey's hillside homes and properties along the bluff tops overlooking the Ballona Wetlands and Santa Monica Bay pair ocean views with the constant salt air of the marine layer, exactly the corrosive coastal environment that demands attentive, factory trained care for Viking sealed systems and Viking burners before salt humidity shortens their lifespan.",
+    "faqHook": "Q: Does the salt air near Dockweiler Beach and the Ballona Wetlands affect my Viking appliances? A: Yes. Playa del Rey's coastal humidity accelerates corrosion on condenser coils and wear on gaskets, so we emphasize preventive coil cleaning and stainless protection on every service call here.",
     "geo": {
       "lat": 33.9619,
       "lng": -118.4436
@@ -333,7 +333,7 @@
       "Campus at Playa Vista"
     ],
     "landmarks": [
-      "Runway Playa Vista (open-air retail and dining)",
+      "Runway Playa Vista (open air retail and dining)",
       "Ballona Wetlands Ecological Reserve",
       "Lincoln Boulevard",
       "Jefferson Boulevard",
@@ -342,8 +342,8 @@
     "zips": [
       "90094"
     ],
-    "localAngle": "Playa Vista is a master-planned \"Silicon Beach\" community where new-construction luxury condos, lofts, and townhomes were built with high-end open-concept kitchens from day one, so when a Viking column refrigerator or Viking range falters in one of these tech-professional households, residents expect factory-level service that matches the development's modern, design-forward build quality.",
-    "faqHook": "\"Do you service Viking units in Playa Vista's condos and lofts with controlled building access?\" — Answer angle: yes, we routinely work in the dense, gated mid-rise and townhome buildings around The Village and Runway, coordinating with HOA/building management and parking so technicians reach units like a typical Concert Park or Bluffs residence without delay.",
+    "localAngle": "Playa Vista is a master planned \"Silicon Beach\" community where newly built luxury condos, lofts, and townhomes came with luxurious open kitchens from day one, so when a Viking column refrigerator or Viking range falters in one of these tech industry households, residents expect service to factory standards that matches the development's modern, carefully designed build quality.",
+    "faqHook": "\"Do you service Viking units in Playa Vista's condos and lofts with controlled building access?\" Yes. We routinely work in the dense, gated midrise and townhome buildings around The Village and Runway, coordinating with HOA and building management on access and parking so technicians reach a typical Concert Park or Bluffs residence without delay.",
     "geo": {
       "lat": 33.9756,
       "lng": -118.4262
@@ -357,8 +357,8 @@
       "North of Montana",
       "Sunset Park",
       "Ocean Park",
-      "Wilshire-Montana",
-      "Mid-City",
+      "Wilshire Montana",
+      "Mid City",
       "Pico District"
     ],
     "landmarks": [
@@ -374,8 +374,8 @@
       "90404",
       "90405"
     ],
-    "localAngle": "Santa Monica's coastal estates north of Montana and Ocean Park craftsman homes pair multimillion-dollar real estate with constant salt-air exposure, which corrodes Viking condensers and Viking burner components faster than inland kitchens, so these high-end appliances need specialist servicing tuned to a marine environment.",
-    "faqHook": "\"Does ocean salt air really damage Viking appliances in Santa Monica?\" — Answer angle: yes, the marine humidity accelerates corrosion on condenser coils, stainless fascias, and igniter contacts, so we proactively clean and seal these components on coastal-home service calls.",
+    "localAngle": "Santa Monica's coastal estates north of Montana and the craftsman homes of Ocean Park pair real estate worth many millions with constant exposure to salt air, which corrodes Viking condensers and Viking burner components faster than inland kitchens, so these premium appliances need specialist servicing tuned to a marine environment.",
+    "faqHook": "\"Does ocean salt air really damage Viking appliances in Santa Monica?\" Yes. The marine humidity accelerates corrosion on condenser coils, stainless fascias, and igniter contacts, so we proactively clean and seal these components when we service coastal homes.",
     "geo": {
       "lat": 34.0194,
       "lng": -118.4912
@@ -390,7 +390,7 @@
       "Westport Heights",
       "North Kentwood",
       "Loyola Village",
-      "Osage-Hindry (Westchester Triangle)",
+      "Osage Hindry (Westchester Triangle)",
       "Playa del Rey (adjacent)"
     ],
     "landmarks": [
@@ -402,8 +402,8 @@
     "zips": [
       "90045"
     ],
-    "localAngle": "Westchester's hilltop Kentwood and Westport Heights blocks pair mid-century ranch homes with a wave of Silicon Beach renovations, where owners drop Viking suites into reworked kitchens just minutes from LMU and LAX. Salt-tinged coastal air drifting in off Playa del Rey makes factory-grade gasket and condenser care especially worthwhile on these built-in units.",
-    "faqHook": "\"Can you reach Westchester homes around LAX and LMU quickly given the airport traffic?\" — Answer angle: yes, technicians route around peak Sepulveda and Lincoln congestion and serve the 90045 hillside neighborhoods (Kentwood, Westport Heights, Loyola Village) with scheduled windows that account for airport-area traffic.",
+    "localAngle": "Westchester's hilltop Kentwood and Westport Heights blocks pair midcentury ranch homes with a wave of Silicon Beach renovations, where owners drop Viking suites into reworked kitchens just minutes from LMU and LAX. The salt in the coastal air drifting off Playa del Rey makes gasket and condenser care to factory standards especially worthwhile on these integrated units.",
+    "faqHook": "\"Can you reach Westchester homes around LAX and LMU quickly given the airport traffic?\" Yes. Technicians route around peak Sepulveda and Lincoln congestion and serve the 90045 hillside neighborhoods (Kentwood, Westport Heights, Loyola Village) with scheduled windows that account for traffic around the airport.",
     "geo": {
       "lat": 33.9612,
       "lng": -118.3983
@@ -430,8 +430,8 @@
     "zips": [
       "90245"
     ],
-    "localAngle": "El Segundo pairs a tight-knit, walkable beach-town grid of restored 1920s craftsman and bungalow homes with an influx of aerospace and tech executives drawn to \"Silicon Beach\" employers, so kitchens here range from lovingly updated vintage cottages to sleek new builds where a Viking column or Viking range is the centerpiece. Coastal salt air just blocks from the sand makes premium stainless and refrigeration seals especially worth maintaining by a specialist rather than a generalist.",
-    "faqHook": "Q: Do you service the historic craftsman and bungalow homes near Main Street where kitchens are often remodeled into tight footprints? A: Yes — we routinely work in El Segundo's compact downtown-area kitchens, handling built-in Viking refrigerators and Viking ranges that have to fit retrofitted vintage cabinetry, and we account for the coastal salt-air exposure that can accelerate seal and condenser wear this close to the beach.",
+    "localAngle": "El Segundo pairs a close, walkable beach town grid of restored 1920s craftsman and bungalow homes with an influx of aerospace and tech executives drawn to \"Silicon Beach\" employers, so kitchens here range from lovingly updated vintage cottages to sleek new builds where a Viking column or Viking range is the centerpiece. Coastal salt air just blocks from the sand makes premium stainless and refrigeration seals especially worth maintaining by a specialist rather than a generalist.",
+    "faqHook": "Q: Do you service the historic craftsman and bungalow homes near Main Street where kitchens are often remodeled into tight footprints? A: Yes. We routinely work in El Segundo's compact kitchens around downtown, handling integrated Viking refrigerators and Viking ranges that have to fit retrofitted vintage cabinetry, and we account for the exposure to coastal salt air that can accelerate seal and condenser wear this close to the beach.",
     "geo": {
       "lat": 33.9192,
       "lng": -118.4161
@@ -458,8 +458,8 @@
     "zips": [
       "90254"
     ],
-    "localAngle": "Hermosa Beach packs some of the South Bay's priciest real estate into walk-streets and Strand-front homes just steps from the sand, where salt air and ocean humidity are uniquely hard on the stainless and sealed systems of Viking refrigeration and Viking ranges. Owners of these compact luxury beach homes and entertainer kitchens expect discreet, factory-correct repair that protects both the appliance and the coastal-finish cabinetry around it.",
-    "faqHook": "Q: Does living right on The Strand or in the Sand Section affect my Viking appliances? A: Yes — constant salt-laden ocean air accelerates corrosion on condenser coils, door gaskets, and stainless trim, so we emphasize coil cleaning, gasket inspection, and corrosion-aware servicing for Hermosa Beach's beachfront 90254 homes.",
+    "localAngle": "Hermosa Beach packs some of the South Bay's priciest real estate into its walk streets and the homes fronting The Strand just steps from the sand, where salt air and ocean humidity are uniquely hard on the stainless and sealed systems of Viking refrigeration and Viking ranges. Owners of these compact luxury beach homes and entertainer kitchens expect discreet repair to factory specification, work that protects both the appliance and the coastal finishes of the cabinetry around it.",
+    "faqHook": "Q: Does living right on The Strand or in the Sand Section affect my Viking appliances? A: Yes. The constant salt in the ocean air accelerates corrosion on condenser coils, door gaskets, and stainless trim, so we emphasize coil cleaning, gasket inspection, and servicing with corrosion in mind for Hermosa Beach's beachfront 90254 homes.",
     "geo": {
       "lat": 33.8622,
       "lng": -118.3995
@@ -486,8 +486,8 @@
     "zips": [
       "90266"
     ],
-    "localAngle": "Manhattan Beach's Sand and Hill Section homes are among the most expensive per square foot on the West Coast, where teardown rebuilds and architect-designed coastal-modern kitchens make a Viking suite standard issue. The relentless salt-laden ocean air just steps from The Strand is uniquely hard on stainless steel and compressor seals, so these built-in units need specialist servicing local big-box techs rarely understand.",
-    "faqHook": "Q: Do you service the multi-million-dollar walk-streets in the Sand Section where there's no driveway or alley access? A: Yes, we routinely handle Strand-adjacent walk-street homes, bringing parts and tools in by hand and scheduling around the tight parking so your built-in Viking range is fixed without you moving a thing.",
+    "localAngle": "Manhattan Beach's Sand and Hill Section homes are among the most expensive per square foot on the West Coast, where teardown rebuilds and coastal modern kitchens designed by architects make a Viking suite standard issue. The relentless salt in the ocean air just steps from The Strand is uniquely hard on stainless steel and compressor seals, so these integrated units need specialist servicing that techs from the big chain stores rarely understand.",
+    "faqHook": "Q: Do you service the walk streets in the Sand Section, where homes run well into the millions and there's no driveway or alley access? A: Yes, we routinely handle walk street homes near The Strand, bringing parts and tools in by hand and scheduling around the tight parking so the Viking range built into your kitchen is fixed without you moving a thing.",
     "geo": {
       "lat": 33.8847,
       "lng": -118.4109
@@ -515,8 +515,8 @@
       "90274",
       "90275"
     ],
-    "localAngle": "Palos Verdes' cliffside estates and Mediterranean-revival haciendas perched above the Pacific pair gourmet Viking ranges and built-in Viking columns with sweeping ocean views, but the same salt-laden coastal air that defines the Peninsula is hard on stainless trim and compressor components, demanding repair specialists who understand high-end appliances in a marine environment.",
-    "faqHook": "Q: Do you make house calls to the gated communities of Rolling Hills and the cliffside estates of Lunada Bay? A: Yes, we service the entire Palos Verdes Peninsula, including gate-access neighborhoods, and coordinate with property managers or staff for scheduled Viking visits at hillside and oceanfront homes.",
+    "localAngle": "Palos Verdes' cliffside estates and Mediterranean revival haciendas perched above the Pacific pair gourmet Viking ranges and integrated Viking columns with sweeping ocean views, but the same salty coastal air that defines the Peninsula is hard on stainless trim and compressor components, demanding repair specialists who understand premium appliances in a marine environment.",
+    "faqHook": "Q: Do you make house calls to the gated communities of Rolling Hills and the cliffside estates of Lunada Bay? A: Yes, we service the entire Palos Verdes Peninsula, including gated neighborhoods, and coordinate with property managers or staff for scheduled Viking visits at hillside and oceanfront homes.",
     "geo": {
       "lat": 33.7744,
       "lng": -118.3806
@@ -544,8 +544,8 @@
       "90277",
       "90278"
     ],
-    "localAngle": "Redondo Beach pairs walkable coastal living with the polished entertainer's kitchens of the Hollywood Riviera hillside and the rebuilt luxury homes along the Esplanade, where ocean salt air is hard on premium stainless. Viking owners here expect factory-certified service that protects both the finish and performance of high-end built-ins in a marine environment.",
-    "faqHook": "\"Does ocean air near the Esplanade and King Harbor affect my Viking appliances?\" — Answer angle: yes, salt-laden coastal air accelerates corrosion on condenser coils, hinges, and stainless trim, so Redondo Beach owners benefit from more frequent coil cleaning and certified maintenance to preserve cooling efficiency and appearance.",
+    "localAngle": "Redondo Beach pairs walkable coastal living with the polished entertainer's kitchens of the Hollywood Riviera hillside and the rebuilt luxury homes along the Esplanade, where ocean salt air is hard on premium stainless. Viking owners here expect factory certified service that protects both the finish and performance of premium integrated units in a marine environment.",
+    "faqHook": "\"Does ocean air near the Esplanade and King Harbor affect my Viking appliances?\" Yes. Salt carried in the coastal air accelerates corrosion on condenser coils, hinges, and stainless trim, so Redondo Beach owners benefit from more frequent coil cleaning and certified maintenance to preserve cooling efficiency and appearance.",
     "geo": {
       "lat": 33.8492,
       "lng": -118.3884
@@ -574,8 +574,8 @@
       "91436",
       "91426"
     ],
-    "localAngle": "Encino's hillside estates and gated Amestoy Estates ranch homes pair sprawling chef's kitchens with the Valley's intense summer heat, where a failing Viking compressor can spoil tens of thousands in wine and groceries within hours. Our factory-trained Viking technicians service these high-end Ventura Boulevard-area homes with the discretion and precision their owners expect.",
-    "faqHook": "Do you service the gated estates in Encino Hills and Amestoy Estates? Yes — we send certified Viking technicians directly to gated and hillside Encino properties, coordinating with gate codes and household staff for scheduled, discreet in-home repair.",
+    "localAngle": "Encino's hillside estates and gated Amestoy Estates ranch homes pair sprawling chef's kitchens with the Valley's intense summer heat, where a failing Viking compressor can spoil tens of thousands in wine and groceries within hours. Our factory trained Viking technicians service these premium homes around Ventura Boulevard with the discretion and precision their owners expect.",
+    "faqHook": "Do you service the gated estates in Encino Hills and Amestoy Estates? Yes. We send certified Viking technicians directly to gated and hillside Encino properties, coordinating gate codes and household staff for scheduled, discreet repair at the house.",
     "geo": {
       "lat": 34.1595,
       "lng": -118.5012
@@ -595,7 +595,7 @@
     ],
     "landmarks": [
       "Balboa Boulevard",
-      "O'Melveny Park (second-largest park in LA)",
+      "O'Melveny Park (second largest park in LA)",
       "Granada Hills Charter High School",
       "Chatsworth Reservoir foothills / Santa Susana Mountains backdrop"
     ],
@@ -603,8 +603,8 @@
       "91344",
       "91394"
     ],
-    "localAngle": "Granada Hills pairs leafy mid-century ranch estates along Balboa with newer gated hillside homes climbing toward the Santa Susana foothills, where remodeled chef's kitchens centered on Viking refrigeration and Viking ranges are a status fixture. The dry, hot Valley summers push those compressors and dual-fuel ranges hard, making factory-grade Viking service a year-round need for these custom kitchens.",
-    "faqHook": "\"Do you service the gated hillside and Renaissance-area homes in north Granada Hills?\" — Yes; we routinely reach the foothill and gated tracts above Rinaldi and bring Viking/Viking parts on the first visit so estate kitchens aren't left without refrigeration.",
+    "localAngle": "Granada Hills pairs leafy midcentury ranch estates along Balboa with newer gated hillside homes climbing toward the Santa Susana foothills, where remodeled chef's kitchens centered on Viking refrigeration and Viking ranges are a status fixture. The dry, hot Valley summers push those compressors and dual fuel ranges hard, making Viking service to factory standards a need in every season for these custom kitchens.",
+    "faqHook": "\"Do you service the gated hillside homes and those around Renaissance in north Granada Hills?\" Yes. We routinely reach the foothill and gated tracts above Rinaldi and bring genuine Viking parts on the first visit so estate kitchens aren't left without refrigeration.",
     "geo": {
       "lat": 34.2731,
       "lng": -118.5023
@@ -631,8 +631,8 @@
     "zips": [
       "91326"
     ],
-    "localAngle": "Porter Ranch is a master-planned hillside enclave of newer luxury and semi-custom estates climbing the Santa Susana foothills, where high-end builder kitchens come pre-equipped with Viking as standard. Tucked against the mountains where summer heat and Santa Ana winds push compressors hard, these newer homes make precise factory-grade refrigeration and range service a year-round necessity rather than a luxury.",
-    "faqHook": "Q: Do you service the newer Toll Brothers and luxury builder homes in the Porter Ranch hillside developments like Westcliffe and The Vineyards? A: Yes — we regularly work on the factory-installed Viking suites that come standard in these newer Porter Ranch estates, including built-in column refrigerators and dual-fuel ranges, with service routed across the 91326 hillside neighborhoods.",
+    "localAngle": "Porter Ranch is a master planned hillside enclave of newer luxury and semicustom estates climbing the Santa Susana foothills, where premium builder kitchens come equipped with Viking as standard. Tucked against the mountains where summer heat and Santa Ana winds push compressors hard, these newer homes make precise refrigeration and range service to factory standards a necessity in every season rather than a luxury.",
+    "faqHook": "Q: Do you service the newer Toll Brothers and luxury builder homes in the Porter Ranch hillside developments like Westcliffe and The Vineyards? A: Yes. We regularly work on the Viking suites that came standard from the builder in these newer Porter Ranch estates, including integrated column refrigerators and dual fuel ranges, with service routed across the 91326 hillside neighborhoods.",
     "geo": {
       "lat": 34.2782,
       "lng": -118.5578
@@ -662,8 +662,8 @@
       "91413",
       "91495"
     ],
-    "localAngle": "Sherman Oaks blends flat, walkable streets north of Ventura Boulevard with coveted hillside estates climbing toward the Santa Monica Mountains, where mid-century moderns and gut-renovated traditionals show off open-concept chef's kitchens. Those canyon-adjacent homes endure intense Valley summer heat that pushes Viking condensers and Viking ranges hard, making prompt, brand-certified repair essential before a built-in fails during a 100-plus-degree week.",
-    "faqHook": "Do you service the hillside homes south of Ventura Boulevard up toward Mulholland? Yes; answer should note that we routinely reach the steep Sherman Oaks Hills and Longridge/Royal Woods estates, carry common Viking parts on the truck, and account for narrow canyon driveways when scheduling.",
+    "localAngle": "Sherman Oaks blends flat, walkable streets north of Ventura Boulevard with coveted hillside estates climbing toward the Santa Monica Mountains, where midcentury moderns and traditionals renovated down to the studs show off open chef's kitchens. Those homes at the canyon's edge endure intense Valley summer heat that pushes Viking condensers and Viking ranges hard, making prompt, factory certified repair essential before an integrated unit fails during a week above 100 degrees.",
+    "faqHook": "Do you service the hillside homes south of Ventura Boulevard up toward Mulholland? Yes. We routinely reach the steep Sherman Oaks Hills and Longridge/Royal Woods estates, carry common Viking parts on the truck, and account for narrow canyon driveways when scheduling.",
     "geo": {
       "lat": 34.1511,
       "lng": -118.449
@@ -693,8 +693,8 @@
       "91602",
       "91614"
     ],
-    "localAngle": "Studio City's hillside Fryman Canyon estates and the entertainment professionals who fill them favor chef-grade kitchens, so a stalled Viking column or a Viking range that won't ignite isn't a minor inconvenience here, it's a problem for households that genuinely cook and entertain. The mix of mid-century homes off Laurel Canyon and renovated trophy properties above Ventura Boulevard means we routinely service both vintage and current-generation Viking builds.",
-    "faqHook": "Q: Do you make house calls to the hillside homes above Ventura Boulevard in Fryman Canyon? A: Yes, we regularly reach the winding canyon streets off Laurel Canyon and Fryman, and bring common Viking parts to the first visit so most repairs are completed on-site without a second trip up the hill.",
+    "localAngle": "Studio City's hillside Fryman Canyon estates and the entertainment professionals who fill them favor serious chef's kitchens, so a stalled Viking column or a Viking range that won't ignite isn't a minor inconvenience here, it's a problem for households that genuinely cook and entertain. The mix of midcentury homes off Laurel Canyon and renovated trophy properties above Ventura Boulevard means we routinely service both vintage Viking builds and the current generation.",
+    "faqHook": "Q: Do you make house calls to the hillside homes above Ventura Boulevard in Fryman Canyon? A: Yes, we regularly reach the winding canyon streets off Laurel Canyon and Fryman, and bring common Viking parts to the first visit so most repairs are completed on the spot without a second trip up the hill.",
     "geo": {
       "lat": 34.1395,
       "lng": -118.3958
@@ -722,8 +722,8 @@
       "91357",
       "91335"
     ],
-    "localAngle": "Tarzana, named for Edgar Rice Burroughs' Tarzan on the author's former ranch, blends gated hillside estates \"South of the Boulevard\" with custom chef's kitchens that lean on Viking refrigeration and Viking ranges to survive hot, dry Valley summers. The combination of canyon-edge luxury homes and triple-digit inland heat makes reliable factory-trained Viking service a year-round necessity here, not a convenience.",
-    "faqHook": "Q: Do you service the gated estates south of Ventura Boulevard in the Tarzana Hills? A: Yes — we regularly handle Viking repairs in the hillside and El Caballero-area homes, coordinating with gate access and HOA entry requirements so factory-certified technicians reach you without hassle.",
+    "localAngle": "Tarzana, named for Edgar Rice Burroughs' Tarzan on the author's former ranch, blends gated hillside estates \"South of the Boulevard\" with custom chef's kitchens that lean on Viking refrigeration and Viking ranges to survive hot, dry Valley summers. The combination of luxury homes at the canyon's edge and inland heat that climbs into the triple digits makes reliable, factory trained Viking service a necessity here in every season, not a convenience.",
+    "faqHook": "Q: Do you service the gated estates south of Ventura Boulevard in the Tarzana Hills? A: Yes. We regularly handle Viking repairs in the hillside homes and those around El Caballero, coordinating gate access and HOA entry requirements so factory certified technicians reach you without hassle.",
     "geo": {
       "lat": 34.1733,
       "lng": -118.5534
@@ -752,8 +752,8 @@
       "91367",
       "91307"
     ],
-    "localAngle": "Woodland Hills pairs gated hillside estates \"south of the Boulevard\" with the corporate-adjacent luxury condos of Warner Center, and its hot, dry inland-valley summers push refrigeration and wine-storage systems hard, making fast Viking service essential for homeowners who entertain in custom chef's kitchens.",
-    "faqHook": "Q: Do you service the gated hillside estates south of Ventura Boulevard and the high-rise condos in Warner Center? A: Yes, we cover the full range of Woodland Hills homes, from large single-family estates in Walnut Acres and Vista de Oro to luxury units around Warner Center, with appointment windows built around the area's notoriously hot summer demand.",
+    "localAngle": "Woodland Hills pairs gated hillside estates \"south of the Boulevard\" with the luxury condos near the offices of Warner Center, and its hot, dry inland valley summers push refrigeration and wine storage systems hard, making fast Viking service essential for homeowners who entertain in custom chef's kitchens.",
+    "faqHook": "Q: Do you service the gated hillside estates south of Ventura Boulevard and the condo towers in Warner Center? A: Yes, we cover the full range of Woodland Hills homes, from large single family estates in Walnut Acres and Vista de Oro to luxury units around Warner Center, with appointment windows built around the area's notoriously hot summer demand.",
     "geo": {
       "lat": 34.1683,
       "lng": -118.6059
@@ -781,8 +781,8 @@
       "91311",
       "91313"
     ],
-    "localAngle": "Chatsworth sits against the rugged Santa Susana sandstone foothills, where sprawling equestrian estates and gated ranch-style homes pair custom Viking ranges with Viking built-ins to anchor their expansive country kitchens. The dry, dusty heat that rolls off Stoney Point makes reliable condenser cooling on these luxury refrigerators a genuine year-round concern, not a luxury afterthought.",
-    "faqHook": "Q: Do you service the gated estates and horse-property homes off Santa Susana Pass and around Stoney Point? A: Yes, our technicians regularly reach Chatsworth's hillside and equestrian properties, scheduling factory-certified Viking service even for the larger semi-rural lots on the community's northwest edge.",
+    "localAngle": "Chatsworth sits against the rugged Santa Susana sandstone foothills, where sprawling equestrian estates and gated ranch homes pair custom Viking ranges with integrated Viking units to anchor their expansive country kitchens. The dry, dusty heat that rolls off Stoney Point makes reliable condenser cooling on these luxury refrigerators a genuine concern in every season, not an afterthought.",
+    "faqHook": "Q: Do you service the gated estates and horse properties off Santa Susana Pass and around Stoney Point? A: Yes, our technicians regularly reach Chatsworth's hillside and equestrian properties, scheduling factory certified Viking service even for the larger semirural lots on the community's northwest edge.",
     "geo": {
       "lat": 34.2574,
       "lng": -118.6011
@@ -810,8 +810,8 @@
       "91001",
       "91003"
     ],
-    "localAngle": "Altadena's foothill estates, historic Craftsman bungalows, and Mediterranean Revival homes climbing toward the San Gabriel Mountains favor heritage-grade kitchens where original Viking suites are part of the architecture, not just appliances. After the 2025 Eaton Fire, many rebuilding homeowners are specifying these same premium lines, making expert installation and repair especially valued here.",
-    "faqHook": "Do you service Viking units in Altadena's older foothill homes near Christmas Tree Lane? Yes, we routinely work on built-in Viking refrigeration and Viking ranges in vintage Craftsman and hillside properties, including legacy and current models, with parts sourced for both older and newly rebuilt kitchens.",
+    "localAngle": "Altadena's foothill estates, historic Craftsman bungalows, and Mediterranean Revival homes climbing toward the San Gabriel Mountains favor heritage kitchens where original Viking suites are part of the architecture, not just appliances. After the 2025 Eaton Fire, many rebuilding homeowners are specifying these same premium lines, making expert installation and repair especially valued here.",
+    "faqHook": "Do you service Viking units in Altadena's older foothill homes near Christmas Tree Lane? Yes, we routinely work on integrated Viking refrigeration and Viking ranges in vintage Craftsman and hillside properties, including legacy and current models, with parts sourced for both older and newly rebuilt kitchens.",
     "geo": {
       "lat": 34.1897,
       "lng": -118.1312
@@ -832,7 +832,7 @@
     "landmarks": [
       "The Americana at Brand",
       "Brand Boulevard",
-      "Forest Lawn Memorial Park - Glendale",
+      "Forest Lawn Memorial Park (Glendale)",
       "Glendale Galleria"
     ],
     "zips": [
@@ -845,8 +845,8 @@
       "91207",
       "91208"
     ],
-    "localAngle": "Glendale's hillside estates in Glenoaks Canyon, Chevy Chase Canyon, and the historic Spanish-Revival homes of Rossmoor pair custom Mediterranean kitchens with high-end Viking suites, while the city's warm, dry foothill summers push refrigeration and wine-storage units hard year-round, making prompt expert repair essential.",
-    "faqHook": "Q: Do you service Viking units in Glendale's canyon and hillside homes like Glenoaks Canyon and Chevy Chase Canyon? A: Yes, our technicians regularly reach Glendale's foothill neighborhoods and carry common Viking/Viking parts to handle built-in fridge and range repairs in a single visit despite the winding canyon access.",
+    "localAngle": "Glendale's hillside estates in Glenoaks Canyon, Chevy Chase Canyon, and the historic Spanish Revival homes of Rossmoor pair custom Mediterranean kitchens with premium Viking suites, while the city's warm, dry foothill summers push refrigeration and wine storage units hard in every season, making prompt expert repair essential.",
+    "faqHook": "Q: Do you service Viking units in Glendale's canyon and hillside homes like Glenoaks Canyon and Chevy Chase Canyon? A: Yes, our technicians regularly reach Glendale's foothill neighborhoods and carry common Viking parts to handle integrated fridge and range repairs in a single visit despite the winding canyon access.",
     "geo": {
       "lat": 34.1425,
       "lng": -118.2551
@@ -874,8 +874,8 @@
       "91011",
       "91012"
     ],
-    "localAngle": "Tucked into the wooded foothills below the Angeles National Forest, La Canada Flintridge pairs sprawling Mediterranean and ranch estates with a JPL-adjacent professional class who expect precision service. Hot, dry foothill summers push Viking compressors and wine-storage units hard, so owners here want factory-level repair that protects six-figure kitchen investments rather than a quick patch.",
-    "faqHook": "Q: Do you service Viking units in the gated foothill estates above Foothill Boulevard near Descanso Gardens? A: Yes — we make house calls throughout the 91011 foothill neighborhoods, scheduling around private-drive access and bringing genuine Viking/Viking parts so most repairs are completed in a single visit.",
+    "localAngle": "Tucked into the wooded foothills below the Angeles National Forest, La Canada Flintridge pairs sprawling Mediterranean and ranch estates with the professional class JPL draws, people who expect precision service. Hot, dry foothill summers push Viking compressors and wine storage units hard, so owners here want repair to factory standards that protects kitchen investments that reach six figures rather than a quick patch.",
+    "faqHook": "Q: Do you service Viking units in the gated foothill estates above Foothill Boulevard near Descanso Gardens? A: Yes. We make house calls throughout the 91011 foothill neighborhoods, scheduling around private drives and bringing genuine Viking parts so most repairs are completed in a single visit.",
     "geo": {
       "lat": 34.1987,
       "lng": -118.1865
@@ -907,8 +907,8 @@
       "91106",
       "91107"
     ],
-    "localAngle": "Pasadena's grand Craftsman bungalows, Greene-and-Greene estates, and stately Madison Heights mansions are increasingly fitted with built-in Viking suites that must blend into custom millwork and historic kitchens — so repairs here demand a technician who can service paneled, integrated units without disturbing original cabinetry or vintage architectural detail.",
-    "faqHook": "Q: Do you service the historic Craftsman and landmark homes around Bungalow Heaven and the Gamble House? A: Yes — we specialize in built-in and panel-ready Viking units common in Pasadena's older estates, working carefully around custom and original cabinetry to avoid any damage during repair.",
+    "localAngle": "Pasadena's grand Craftsman bungalows, Greene and Greene estates, and stately Madison Heights mansions are increasingly fitted with Viking suites built into custom millwork and historic kitchens, so repairs here demand a technician who can service paneled, integrated units without disturbing original cabinetry or vintage architectural detail.",
+    "faqHook": "Q: Do you service the historic Craftsman and landmark homes around Bungalow Heaven and the Gamble House? A: Yes. We specialize in the integrated and paneled Viking units common in Pasadena's older estates, working carefully around custom and original cabinetry to avoid any damage during repair.",
     "geo": {
       "lat": 34.1478,
       "lng": -118.1445
@@ -935,8 +935,8 @@
       "91108",
       "91118"
     ],
-    "localAngle": "San Marino is one of Los Angeles County's wealthiest and most exclusive cities, defined by large early-20th-century estates, formal gardens, and architecturally significant homes near The Huntington. Owners of these meticulously kept residences expect factory-certified Viking service that respects custom cabinetry and built-in installations rather than rushed swap-outs.",
-    "faqHook": "\"Do you service the large estate kitchens near The Huntington and Lacy Park?\" — Answer angle: yes, we handle built-in Viking refrigeration and Viking ranges in San Marino's older estate homes, including units in custom millwork and butler's pantries, with factory-authorized parts and careful in-home handling.",
+    "localAngle": "San Marino is one of Los Angeles County's wealthiest and most exclusive cities, defined by large estates from the early twentieth century, formal gardens, and architecturally significant homes near The Huntington. Owners of these meticulously kept residences expect factory certified Viking service that respects custom cabinetry and integrated installations rather than a rushed swap.",
+    "faqHook": "\"Do you service the large estate kitchens near The Huntington and Lacy Park?\" Yes. We handle integrated Viking refrigeration and Viking ranges in San Marino's older estate homes, including units in custom millwork and butler's pantries, with parts authorized by the factory and careful handling in your home.",
     "geo": {
       "lat": 34.1214,
       "lng": -118.1065
@@ -963,8 +963,8 @@
       "91024",
       "91025"
     ],
-    "localAngle": "Sierra Madre is a tight-knit, walkable foothill village of Craftsman bungalows and tucked-away Canyon cottages where many original kitchens have been quietly upgraded with Viking refrigeration and Viking ranges behind period-correct cabinetry. Hauling a built-in unit out of these narrow, hillside Canyon lots is impractical, so on-site, in-cabinet factory-grade repair is what keeps these heritage homes' luxury appliances running.",
-    "faqHook": "Q: Can you service a built-in Viking in the tight, hard-to-access homes up Sierra Madre Canyon? A: Yes — we routinely handle narrow driveways and tucked-in foothill/Canyon properties, bringing OEM parts and doing the diagnosis and repair in place rather than removing the unit, so there's no risk to your cabinetry or hillside access.",
+    "localAngle": "Sierra Madre is a close, walkable foothill village of Craftsman bungalows and Canyon cottages tucked out of sight, where many original kitchens have been quietly upgraded with Viking refrigeration and Viking ranges behind cabinetry true to the period. Hauling an integrated unit out of these narrow, hillside Canyon lots is impractical, so repair done in place, inside the cabinet and to factory standards, is what keeps the luxury appliances in these heritage homes running.",
+    "faqHook": "Q: Can you service an integrated Viking in the tight, hard to reach homes up Sierra Madre Canyon? A: Yes. We routinely handle narrow driveways and secluded foothill and Canyon properties, bringing OEM parts and doing the diagnosis and repair in place rather than removing the unit, so there's no risk to your cabinetry or hillside access.",
     "geo": {
       "lat": 34.1617,
       "lng": -118.0529
@@ -993,8 +993,8 @@
       "91301",
       "91376"
     ],
-    "localAngle": "Agoura Hills blends gated equestrian estates in Old Agoura with newer hillside custom homes pressed against the Santa Monica Mountains, where chef-grade Viking suites anchor kitchens built for entertaining. The dry, fire-prone canyon climate and frequent Santa Ana heat stress refrigeration condensers, making expert calibration and preventive service essential for these high-end builds.",
-    "faqHook": "\"Do you service the gated equestrian estates in Old Agoura and the hillside homes off Kanan Road?\" — Answer angle: confirm coverage of the full 91301 area including narrow canyon and ranch-property access, with techs experienced in built-in Viking columns and Viking ranges common in these custom kitchens.",
+    "localAngle": "Agoura Hills blends gated equestrian estates in Old Agoura with newer hillside custom homes pressed against the Santa Monica Mountains, where Viking suites worthy of a chef anchor kitchens built for entertaining. The dry canyon climate, with its wildfire seasons and frequent Santa Ana heat, stresses refrigeration condensers, making expert calibration and preventive service essential for these premium builds.",
+    "faqHook": "\"Do you service the gated equestrian estates in Old Agoura and the hillside homes off Kanan Road?\" Yes. We cover the full 91301 area, including narrow canyon roads and ranch property access, with techs experienced in the integrated Viking columns and Viking ranges common in these custom kitchens.",
     "geo": {
       "lat": 34.1533,
       "lng": -118.7615
@@ -1023,8 +1023,8 @@
       "91301",
       "91372"
     ],
-    "localAngle": "Calabasas is a gated-community enclave where guard-protected estates in The Oaks and Calabasas Park demand white-glove, by-appointment service that respects HOA access protocols and discreet scheduling. Its custom hillside kitchens are built around full Viking suites, so owners expect a factory-certified specialist who arrives with the right parts rather than a generalist who has to come back twice.",
-    "faqHook": "Do you service the gated communities like The Oaks and Calabasas Park Estates? Answer angle: yes, we routinely coordinate with guard gates and HOA management for advance entry clearance and offer discreet, scheduled windows so residents never wait around.",
+    "localAngle": "Calabasas is an enclave of gated communities where the estates behind the guard gates of The Oaks and Calabasas Park demand white glove service by appointment, with respect for HOA access protocols and discreet scheduling. Its custom hillside kitchens are built around full Viking suites, so owners expect a factory certified specialist who arrives with the right parts rather than a generalist who has to come back twice.",
+    "faqHook": "Do you service the gated communities like The Oaks and Calabasas Park Estates? Yes, we routinely coordinate with guard gates and HOA management for advance entry clearance and offer discreet, scheduled windows so residents never wait around.",
     "geo": {
       "lat": 34.1578,
       "lng": -118.6376
@@ -1044,14 +1044,14 @@
     "landmarks": [
       "Long Valley Road",
       "Round Meadow Road",
-      "Ventura Freeway (US-101)",
+      "Ventura Freeway (US 101)",
       "Calabasas Road / adjacent Calabasas"
     ],
     "zips": [
       "91302"
     ],
-    "localAngle": "Hidden Hills is a gated, equestrian-zoned community of sprawling ranch-style and modern estates behind private white fences, home to A-list celebrities who expect total discretion. Repairs to a built-in Viking refrigerator or a Viking range here demand a low-profile, appointment-only technician who can clear gated entry and work in expansive show kitchens without disrupting an intensely private household.",
-    "faqHook": "Q: Can your Viking technicians work within Hidden Hills' gated, privacy-focused community? A: Yes - we coordinate gated-entry guest clearance in advance, arrive in unmarked-discreet fashion if requested, and respect the no-photo, appointment-only privacy expectations common to Hidden Hills estates.",
+    "localAngle": "Hidden Hills is a gated community zoned for horses, its sprawling ranch and modern estates set behind private white fences and home to some of the most famous names in entertainment, people who expect total discretion. Repairs to an integrated Viking refrigerator or a Viking range here demand a discreet technician who works by appointment, clears gated entry, and moves through expansive show kitchens without disrupting an intensely private household.",
+    "faqHook": "Q: Can your Viking technicians work within Hidden Hills' gated community, where privacy comes first? A: Yes. We coordinate guest clearance at the gate in advance, arrive in unmarked vehicles and keep a low profile if requested, and respect the privacy expectations common to Hidden Hills estates, including no photos and entry by appointment only.",
     "geo": {
       "lat": 34.1611,
       "lng": -118.6519
@@ -1079,8 +1079,8 @@
       "93021",
       "93020"
     ],
-    "localAngle": "Moorpark pairs newer master-planned hillside estates in Moorpark Highlands and Peach Hill with established ranch-style homes near High Street, where spacious chef's kitchens built around Viking refrigeration and Viking ranges are common in this consistently low-crime, family-oriented Ventura County city. The hot, dry inland summers off Tierra Rejada Road push high-end refrigeration and wine-storage units hard, making factory-correct Viking service a priority for homeowners protecting six-figure kitchens.",
-    "faqHook": "Q: Do you service the gated and hillside estates in Moorpark Highlands and Peach Hill? A: Yes — we make in-home Viking service calls throughout Moorpark's master-planned and gated communities, coordinating gate access in advance so the appointment runs smoothly.",
+    "localAngle": "Moorpark pairs newer master planned hillside estates in Moorpark Highlands and Peach Hill with established ranch homes near High Street, where spacious chef's kitchens built around Viking refrigeration and Viking ranges are common in this consistently safe Ventura County city, a favorite of families. The hot, dry inland summers off Tierra Rejada Road push premium refrigeration and wine storage units hard, making Viking service to factory specification a priority for homeowners protecting kitchens worth six figures.",
+    "faqHook": "Q: Do you service the gated and hillside estates in Moorpark Highlands and Peach Hill? A: Yes. We make Viking house calls throughout Moorpark's master planned and gated communities, coordinating gate access in advance so the appointment runs smoothly.",
     "geo": {
       "lat": 34.2856,
       "lng": -118.882
@@ -1110,8 +1110,8 @@
       "93094",
       "93099"
     ],
-    "localAngle": "Simi Valley pairs gated, equestrian-zoned estates like Bridle Path and the hillside custom homes of Wood Ranch with some of the hottest, driest summers in greater LA, where triple-digit heat pushes Viking compressors and Viking cooling systems to their limits and makes precise factory-spec repair essential for protecting six-figure kitchens.",
-    "faqHook": "Q: Do you service the gated estates in Wood Ranch and Bridle Path? A: Yes; we send factory-trained Viking technicians to Simi Valley's gated and equestrian communities with the right parts on the truck, so built-in units in these custom homes are diagnosed and repaired in a single trip whenever possible.",
+    "localAngle": "Simi Valley pairs gated estates zoned for horses like Bridle Path and the hillside custom homes of Wood Ranch with some of the hottest, driest summers in greater LA, where heat in the triple digits pushes Viking compressors and Viking cooling systems to their limits and makes precise repair to factory specification essential for protecting kitchens worth six figures.",
+    "faqHook": "Q: Do you service the gated estates in Wood Ranch and Bridle Path? A: Yes; we send factory trained Viking technicians to Simi Valley's gated and equestrian communities with the right parts on the truck, so integrated units in these custom homes are diagnosed and repaired in a single trip whenever possible.",
     "geo": {
       "lat": 34.2694,
       "lng": -118.7815
@@ -1141,8 +1141,8 @@
       "91361",
       "91362"
     ],
-    "localAngle": "Thousand Oaks pairs gated North Ranch estates and sprawling oak-shaded ranch homes with a dry, hot-summer Conejo Valley climate that pushes Viking condensers and Viking ranges hard, so owners here expect factory-precise repair that protects six-figure built-in kitchens rather than generic appliance fixes.",
-    "faqHook": "\"Do you service the gated North Ranch and Lynn Ranch estates in Thousand Oaks?\" — Yes; we coordinate scheduled, gate-cleared visits and carry genuine Viking parts so most repairs on built-in units are completed without a second trip.",
+    "localAngle": "Thousand Oaks pairs gated North Ranch estates and sprawling ranch homes shaded by old oaks with a dry Conejo Valley climate of hot summers that pushes Viking condensers and Viking ranges hard, so owners here expect repair to factory precision that protects kitchens of integrated appliances worth six figures rather than generic appliance fixes.",
+    "faqHook": "\"Do you service the gated North Ranch and Lynn Ranch estates in Thousand Oaks?\" Yes. We coordinate scheduled visits cleared through the gate and carry genuine Viking parts so most repairs on integrated units are completed without a second trip.",
     "geo": {
       "lat": 34.1706,
       "lng": -118.8376
@@ -1170,8 +1170,8 @@
       "91361",
       "91362"
     ],
-    "localAngle": "Built around its namesake private lake, Westlake Village pairs gated North Ranch estates and waterfront homes with the kind of custom chef's kitchens where a Viking column fridge and Viking dual-fuel range are standard issue. Owners here expect factory-certified, white-glove service that protects six-figure built-in installations rather than a generic appliance fix.",
-    "faqHook": "Q: Do you service the gated lakefront and North Ranch estates in Westlake Village? A: Yes, with COIs and HOA-friendly scheduling for guard-gated communities, and we stock OEM Viking/Viking parts so most built-in repairs are handled in a single visit without exposing a high-value kitchen to downtime.",
+    "localAngle": "Built around its namesake private lake, Westlake Village pairs gated North Ranch estates and waterfront homes with the kind of custom chef's kitchens where a Viking column fridge and Viking dual fuel range are standard issue. Owners here expect factory certified, white glove service that protects integrated installations worth six figures rather than a generic appliance fix.",
+    "faqHook": "Q: Do you service the gated lakefront and North Ranch estates in Westlake Village? A: Yes, with COIs and scheduling that suits HOAs in communities behind guard gates, and we stock OEM Viking parts so most repairs on integrated units are handled in a single visit without exposing a valuable kitchen to downtime.",
     "geo": {
       "lat": 34.1458,
       "lng": -118.8057
@@ -1190,7 +1190,7 @@
       "Summit (Topanga Summit)"
     ],
     "landmarks": [
-      "Topanga Canyon Boulevard (SR-27)",
+      "Topanga Canyon Boulevard (SR 27)",
       "Topanga State Park",
       "Theatricum Botanicum",
       "Topanga Community Center"
@@ -1198,8 +1198,8 @@
     "zips": [
       "90290"
     ],
-    "localAngle": "Topanga's secluded canyon estates and architect-designed hillside homes pair rustic woodland character with serious culinary kitchens, where Viking refrigeration and Viking ranges are staples of the bohemian-luxe lifestyle. Winding canyon roads, wildfire-season heat, and dusty mountain air put extra strain on compressors and ventilation, making specialized on-site service essential this far up the canyon.",
-    "faqHook": "\"Do you make service calls deep into Topanga Canyon and the unpaved hillside roads off Old Topanga?\" Answer angle: yes, we route factory-trained Viking technicians to remote canyon addresses throughout 90290, carrying common parts to avoid a second trip up the mountain.",
+    "localAngle": "Topanga's secluded canyon estates and hillside homes designed by architects pair rustic woodland character with serious culinary kitchens, where Viking refrigeration and Viking ranges are staples of a lifestyle equal parts bohemian and luxurious. Winding canyon roads, the heat of wildfire season, and dusty mountain air put extra strain on compressors and ventilation, making specialized service at the house essential this far up the canyon.",
+    "faqHook": "\"Do you make service calls deep into Topanga Canyon and the unpaved hillside roads off Old Topanga?\" Yes. We route factory trained Viking technicians to remote canyon addresses throughout 90290, carrying common parts to avoid a second trip up the mountain.",
     "geo": {
       "lat": 34.0938,
       "lng": -118.6008

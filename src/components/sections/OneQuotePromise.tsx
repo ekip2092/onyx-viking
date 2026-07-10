@@ -17,7 +17,7 @@ export function OneQuotePromise() {
     >
       <div className="wrap" style={{ maxWidth: 820 }}>
         <Reveal>
-          <Eyebrow>The Onyx One-Quote Promise</Eyebrow>
+          <Eyebrow>The Onyx One Quote Promise</Eyebrow>
           <h2 className="d-xl" style={{ marginTop: "var(--space-xs)" }}>
             One Quote. One Price. Guaranteed.
           </h2>
@@ -27,22 +27,22 @@ export function OneQuotePromise() {
         </Reveal>
         <Reveal style={{ marginTop: "var(--space-lg)", display: "flex", flexDirection: "column", gap: "var(--space-sm)" }}>
           <p className="body" style={{ fontSize: "16px", maxWidth: "64ch", color: "var(--color-body-strong)" }}>
-            When our technician diagnoses your Viking, we quote one price to fix that problem — completely. That
-            number is final. Not a starting point. Not an estimate.
+            When our technician diagnoses your Viking, we quote one price to fix that problem completely. That
+            number is final, not a starting point we revise once the work begins.
           </p>
           <p className="body" style={{ fontSize: "16px", maxWidth: "64ch" }}>
-            You’re not paying for parts and labor. You’re paying for one thing: the problem you called about —
-            solved, guaranteed, and warrantied for three years. If the repair runs deeper than anyone could see
-            from the outside — more parts, more labor, a return visit to finish the job — the price doesn’t move.
-            The difference is ours to absorb, not yours.
+            We don’t bill by the part or by the hour. Your price covers getting the problem you called about
+            fixed, with the work guaranteed and a three year warranty behind it. Sometimes a repair runs deeper
+            than anyone could see from the outside. Maybe it needs extra parts, or even a second visit to finish
+            the job properly. The price still doesn’t move. The difference is ours to absorb, not yours.
           </p>
           <p className="body" style={{ fontSize: "16px", maxWidth: "64ch", color: "var(--color-body-strong)" }}>
             Some jobs cost us more than we quoted. We finish them anyway. That’s what a quote means here.
           </p>
           <p className="body" style={{ fontSize: "14px", maxWidth: "64ch" }}>
-            Your quote covers the problem we diagnosed, fixed completely. If we ever notice something separate —
-            a different issue, unrelated to why you called — we’ll show you, explain it, and quote it on its own.
-            Nothing is added to your bill unless you ask us to fix it.
+            Your quote covers the problem we diagnosed, fixed completely. If we ever notice something separate,
+            a different issue that has nothing to do with why you called, we’ll walk you through it and quote it
+            as its own job. Nothing is added to your bill unless you ask us to fix it.
           </p>
           <p
             style={{
@@ -57,7 +57,7 @@ export function OneQuotePromise() {
               maxWidth: "64ch",
             }}
           >
-            Every repair is backed by a 3-year parts-and-labor warranty — in writing.
+            Every repair is backed by a three year parts and labor warranty, in writing.
           </p>
         </Reveal>
         <Reveal style={{ marginTop: "var(--space-lg)", display: "flex", gap: "var(--space-xs)", flexWrap: "wrap" }}>

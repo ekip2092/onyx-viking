@@ -125,7 +125,7 @@ export function ContactBody() {
               <h2 style={{ margin: 0, color: "var(--color-ink)", fontSize: "22px", fontWeight: 600 }}>Request a callback</h2>
               <div className="grid cols-2" style={{ gap: "var(--space-md)" }}>
                 <Input label="Full name" value={form.name} onChange={set("name")} placeholder="Jane Calloway" required />
-                <Input label="Phone" type="tel" value={form.phone} onChange={set("phone")} placeholder="(310) 555-0142" required />
+                <Input label="Phone" type="tel" value={form.phone} onChange={set("phone")} placeholder="(310) 555 0142" required />
               </div>
               <Input label="Email" type="email" value={form.email} onChange={set("email")} placeholder="you@example.com" />
               <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-xxs)" }}>
