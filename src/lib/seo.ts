@@ -15,10 +15,13 @@ export const SITE_URL = "https://www.onyxvikingservice.com";
 export const GA4_ID = "G-XXXXXXXXXX"; // TODO(owner): real GA4 Measurement ID (Admin → Data Streams)
 export const ADS_ID = "AW-18249301786"; // real Google Ads conversion ID
 export const ADS_LABELS = {
-  book: "p3PUCL-V2sEcEJr--P1D", // real — booking conversion label
-  call: "PLACEHOLDER_ADS_CALL_LABEL", // TODO(owner): create a "Call" conversion action, paste label
-  form: "PLACEHOLDER_ADS_FORM_LABEL", // TODO(owner): create a "Form" conversion action, paste label
+  book: "p3PUCL-V2sEcEJr--P1D", // real — "Booking Form Submission"
+  call: "UO5bCPPx18kcEJr--P1D", // real — "Phone Click (Website)" (account-wide action; per-campaign reporting separates brands)
+  form: "N9JECI_W8MwcEJr--P1D", // real — "Callback Request"
 } as const;
+// real — "Website Calls (Number Swap)": lets Google swap the displayed number
+// with a forwarding number for ad visitors, tracking calls dialed by hand.
+export const ADS_CALL_SWAP_LABEL = "mt0rCKqrnM0cEJr--P1D";
 
 // ---------- Business facts for structured data ----------
 export const BUSINESS = {
